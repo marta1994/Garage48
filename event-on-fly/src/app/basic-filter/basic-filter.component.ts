@@ -12,8 +12,13 @@ export class BasicFilterComponent implements OnInit {
     "Lviv",
     "Odesa",
     "Kyiv"
-  ]
-  public selectLocationPlaceholder: string = "Select location"
+  ];
+
+  public availableEventTypes: string[] = [
+    "Party",
+    "Tech",
+    "Sports"
+  ];
 
 private _basicFilter: SimpleFilter;
   @Input()
