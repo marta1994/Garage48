@@ -18,6 +18,7 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatNativeDateModule} from '@angular/material/core';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 import {SearchServiceService} from './search-service.service';
 import { AppComponent } from './app.component';
@@ -26,6 +27,7 @@ import { BasicFilterComponent } from './basic-filter/basic-filter.component';
 import { VenueFilterComponent } from './venue-filter/venue-filter.component';
 import { SearchActionComponent } from './search-action/search-action.component';
 import { BundleItemComponent } from './bundle-item/bundle-item.component';
+import { TopBarComponent } from './top-bar/top-bar.component';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyDFey1JYAWe874FyVKIZ5b-IzqZjm9zBSU",
@@ -41,7 +43,8 @@ export const firebaseConfig = {
     BasicFilterComponent,
     VenueFilterComponent,
     SearchActionComponent,
-    BundleItemComponent
+    BundleItemComponent,
+    TopBarComponent
   ],
   imports: [
     BrowserModule,
@@ -60,7 +63,8 @@ export const firebaseConfig = {
     MatNativeDateModule,
     MatButtonModule,
     MatDividerModule,
-    MatGridListModule
+    MatGridListModule,
+    MatToolbarModule
   ],
   exports: [
     MatSelectModule,
@@ -72,7 +76,8 @@ export const firebaseConfig = {
     MatNativeDateModule,
     MatButtonModule,
     MatDividerModule,
-    MatGridListModule
+    MatGridListModule,
+    MatToolbarModule
   ],
   providers: [
     SearchServiceService
