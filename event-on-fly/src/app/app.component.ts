@@ -12,6 +12,6 @@ import { SearchServiceService } from './search-service.service';
 export class AppComponent {
   title = 'app';
 
-  constructor(private searchService: SearchServiceService) {
+  constructor(public searchService: SearchServiceService) {
   }
 }

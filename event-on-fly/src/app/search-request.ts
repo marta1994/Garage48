@@ -22,8 +22,10 @@ export class AdditionalServices {
         switch(this.type) {
             case ServiceType.Venue:
             this.service = new VenueFilter();
+            this.includeService = true;
             break;
             case ServiceType.Catering:
+            this.includeService = true;
             this.service = {};
             break;
         }
