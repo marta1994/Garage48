@@ -1,7 +1,15 @@
+import { isNumber } from "util";
+
 export class SearchRequest {
     constructor() {
         this.simpleFilter = new SimpleFilter();
         this.additionalServices = [];
+        for(let key in ServiceType)
+        {
+            if (+key != NaN) {
+                this.additionalServices.push(new AdditionalServices(+key));
+            }
+        }
     }
 
     simpleFilter: SimpleFilter;
@@ -9,6 +17,17 @@ export class SearchRequest {
 }
 
 export class AdditionalServices {
+    constructor(filterType: ServiceType) {
+        this.type = filterType;
+        switch(this.type) {
+            case ServiceType.Venue:
+            this.service = new VenueFilter();
+            break;
+            case ServiceType.Catering:
+            this.service = {};
+            break;
+        }
+    }
     type: ServiceType;
     includeService: boolean;
     service: IService;
