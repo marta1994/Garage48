@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { VenueFilter } from '../search-request';
+import { VenueFilter, AdditionalServices } from '../search-request';
 import { containerRefreshStart } from '@angular/core/src/render3/instructions';
 
 @Component({
@@ -9,13 +9,14 @@ import { containerRefreshStart } from '@angular/core/src/render3/instructions';
 })
 export class VenueFilterComponent implements OnInit {
 
-  private _venueFilter: VenueFilter;
-
+  private _venueService: AdditionalServices
   @Input()
-  set venueFilter(value: VenueFilter) {
-    this._venueFilter = value;
+  set venueService(value: AdditionalServices) {
+    this._venueService = value;
   }
-  get venueFilter(): VenueFilter { return this._venueFilter; }
+  get venueService(): AdditionalServices { return this._venueService; }
+
+  get venueFilter(): VenueFilter { return <VenueFilter>this._venueService.service; }
 
   constructor() { }
 

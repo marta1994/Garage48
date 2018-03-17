@@ -59,7 +59,9 @@ export class SimpleFilter {
     dateRange: DateRange;
     needCatering: Boolean;
     needVenue: Boolean;
-    needExtraService: Boolean;    
+    needExtraService: Boolean; 
+    priceFrom: Number;
+    priceTo: Number;   
 }
 
 export class DateRange {

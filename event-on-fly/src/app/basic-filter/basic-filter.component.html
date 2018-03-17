@@ -16,7 +16,7 @@
                 </mat-option>
             </mat-select>
             <mat-form-field>
-                <input type="text" matInput placeholder="Number of participants" [(ngModel)]="basicFilter.peopleNumber">
+                <input type="number" matInput placeholder="Number of participants" [(ngModel)]="basicFilter.peopleNumber">
             </mat-form-field>
         </section>
 
@@ -33,7 +33,7 @@
 
             <div class="specific-date" *ngIf="dateRangeType === 1">
                 <mat-form-field>
-                    <input matInput [matDatepicker]="picker1" placeholder="Choose a date">
+                    <input type="date" matInput [matDatepicker]="picker1" placeholder="Choose a date">
                     <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
                     <mat-datepicker #picker1></mat-datepicker>
                 </mat-form-field>
@@ -41,20 +41,31 @@
 
             <div class="specific-date" *ngIf="dateRangeType === 2">
                 <mat-form-field>
-                    <input matInput [matDatepicker]="picker2" placeholder="Choose a date">
+                    <input type="date" matInput [matDatepicker]="picker2" placeholder="Choose a date">
                     <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
                     <mat-datepicker #picker2></mat-datepicker>
                 </mat-form-field>
                 <mat-form-field>
-                    <input matInput [matDatepicker]="picker3" placeholder="Choose a date">
+                    <input type="date" matInput [matDatepicker]="picker3" placeholder="Choose a date">
                     <mat-datepicker-toggle matSuffix [for]="picker3"></mat-datepicker-toggle>
                     <mat-datepicker #picker3></mat-datepicker>
                 </mat-form-field>
                 <mat-form-field>
-                    <input matInput placeholder="Duration (in days)" [(ngModel)]="basicFilter.dateRange.duration">
+                    <input type="number" matInput placeholder="Duration (in days)" [(ngModel)]="basicFilter.dateRange.duration">
                 </mat-form-field>
             </div>
         </section>
+
+        <section class="basic-filter budget-range">
+                <h4>Budget ($)</h4>
+                <mat-form-field class="from">
+                  <input matInput placeholder="From" [(ngModel)]="basicFilter.priceFrom" [ngModelOptions]="{standalone: true}">
+                </mat-form-field>
+        
+                <mat-form-field class="to">
+                  <input matInput placeholder="To"  [(ngModel)]="basicFilter.priceTo" [ngModelOptions]="{standalone: true}">
+                </mat-form-field>
+            </section>
         <app-search-action *ngIf="showSearch"></app-search-action>
     </mat-card-content>
 </mat-card>
