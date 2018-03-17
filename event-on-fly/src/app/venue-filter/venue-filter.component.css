@@ -1,0 +1,8 @@
+.venue-filter-card {
+    display: flex;
+}
+
+.venue-filter {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { SearchServiceService } from '../search-service.service';
-import { SearchRequest } from '../search-request';
+import { SearchRequest, ServiceType } from '../search-request';
 
 @Component({
   selector: 'app-filter',
@@ -18,4 +18,8 @@ export class FilterComponent implements OnInit {
   ngOnInit() {
   }
 
+  public getAdditionalFilter(type: ServiceType): any {
+    return this.filter.additionalServices.filter(it =>
+    it.type === type)[0];
+  }
 }

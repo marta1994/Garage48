@@ -9,7 +9,7 @@ export class SearchRequest {
 }
 
 export class AdditionalServices {
-
+    type: ServiceType;
     includeService: boolean;
     service: IService;
 }
@@ -37,10 +37,24 @@ export class DateRange {
 }
 
 export class VenueFilter implements IService {
-    squareRange: any;
+    squareFrom: number;
+    squareTo: number;
+    providedWifi: Boolean;
+    wardrobe: Boolean;
+    parking: Boolean;
+    securityGuard: Boolean;
+    cleaningServiceIncluded: Boolean;
+    floors: number;
+    peopleNumber: number;
+    toiletsAmount: number;
+    cityCenter: Boolean;
+    offerCatering: Boolean;
+    allowThirdPartyCatering: Boolean;
+    priceFrom: Number;
+    priceTo: Number;
 }
 
 export enum ServiceType {
-    Venue,
-    Catering
+    Venue = 0,
+    Catering = 1
 }

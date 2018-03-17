@@ -10,6 +10,8 @@ import { NgModule } from '@angular/core';
 
 import {MatSelectModule} from '@angular/material/select';
 import {MatInputModule} from '@angular/material/input';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatCardModule} from '@angular/material/card';
 
 import {SearchServiceService} from './search-service.service';
 import { AppComponent } from './app.component';
@@ -40,11 +42,15 @@ export const firebaseConfig = {
     BrowserAnimationsModule,
     NoopAnimationsModule,
     MatSelectModule,
-    MatInputModule
+    MatInputModule,
+    MatCheckboxModule,
+    MatCardModule
   ],
   exports: [
     MatSelectModule,
-    MatInputModule
+    MatInputModule,
+    MatCheckboxModule,
+    MatCardModule
   ],
   providers: [
     SearchServiceService
