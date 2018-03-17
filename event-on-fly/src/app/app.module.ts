@@ -28,6 +28,7 @@ import { VenueFilterComponent } from './venue-filter/venue-filter.component';
 import { SearchActionComponent } from './search-action/search-action.component';
 import { BundleItemComponent } from './bundle-item/bundle-item.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyDFey1JYAWe874FyVKIZ5b-IzqZjm9zBSU",
@@ -64,7 +65,8 @@ export const firebaseConfig = {
     MatButtonModule,
     MatDividerModule,
     MatGridListModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatFormFieldModule
   ],
   exports: [
     MatSelectModule,
@@ -77,7 +79,8 @@ export const firebaseConfig = {
     MatButtonModule,
     MatDividerModule,
     MatGridListModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatFormFieldModule
   ],
   providers: [
     SearchServiceService

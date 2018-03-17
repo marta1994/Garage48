@@ -8,9 +8,9 @@
 }
 
 .left-side {
-    flex: 2;
+    flex: 4;
 }
 
 .main-side {
-    flex: 3;
+    flex: 7;
 }
