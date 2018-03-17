@@ -1,11 +1,18 @@
 <div *ngIf="searchService.currentPage === 0" class="start-filter">
-    <app-basic-filter [basicFilter]="searchService.searchRequest.simpleFilter"
+    <app-basic-filter [basicFilter]="searchService.searchRequest.simpleFilter" 
+    [additionalServices]="searchService.searchRequest.additionalServices"
     [showSearch]="true"></app-basic-filter>
 </div>
 <div *ngIf="searchService.currentPage === 1">
-    <app-filter></app-filter>
-    <div class="bundles">
-        <app-bundle-item *ngFor="let bundle of searchService.bundles" [bundle]="bundle">
-        </app-bundle-item>
-    </div>
+    <mat-grid-list cols="5" rowHeight="1000px">
+        <mat-grid-tile [colspan]="2">
+            <app-filter></app-filter>
+        </mat-grid-tile>
+        <mat-grid-tile [colspan]="3">
+            <div class="bundles">
+                <app-bundle-item *ngFor="let bundle of searchService.bundles" [bundle]="bundle">
+                </app-bundle-item>
+            </div>
+        </mat-grid-tile>
+    </mat-grid-list>
 </div>

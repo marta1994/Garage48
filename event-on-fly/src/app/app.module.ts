@@ -17,6 +17,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatNativeDateModule} from '@angular/material/core';
 import {MatDividerModule} from '@angular/material/divider';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 import {SearchServiceService} from './search-service.service';
 import { AppComponent } from './app.component';
@@ -58,7 +59,8 @@ export const firebaseConfig = {
     MatDatepickerModule,
     MatNativeDateModule,
     MatButtonModule,
-    MatDividerModule
+    MatDividerModule,
+    MatGridListModule
   ],
   exports: [
     MatSelectModule,
@@ -69,7 +71,8 @@ export const firebaseConfig = {
     MatDatepickerModule,
     MatNativeDateModule,
     MatButtonModule,
-    MatDividerModule
+    MatDividerModule,
+    MatGridListModule
   ],
   providers: [
     SearchServiceService

@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from "@angular/core";
-import { SimpleFilter, DateRangeType } from "../search-request";
+import { SimpleFilter, DateRangeType, AdditionalServices } from "../search-request";
 
 @Component({
   selector: "app-basic-filter",
@@ -24,6 +24,15 @@ export class BasicFilterComponent implements OnInit {
   }
   get basicFilter(): SimpleFilter {
     return this._basicFilter;
+  }
+
+  private _additionalServices: AdditionalServices[];
+  @Input()
+  set additionalServices(value: AdditionalServices[]) {
+    this._additionalServices = value;
+  }
+  get additionalServices(): AdditionalServices[] {
+    return this._additionalServices;
   }
 
   private _showSearch: boolean = false;

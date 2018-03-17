@@ -1,5 +1,6 @@
 <section class="filters">
-    <app-basic-filter class="filter" [basicFilter]="filter.simpleFilter"></app-basic-filter>
+    <app-basic-filter class="filter" [basicFilter]="filter.simpleFilter"
+    [additionalServices]="filter.additionalServices"></app-basic-filter>
     <app-venue-filter class="filter" [venueFilter]="getAdditionalFilter(0)"></app-venue-filter>
     <app-search-action></app-search-action>
 </section>

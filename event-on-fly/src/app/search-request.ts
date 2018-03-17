@@ -1,12 +1,10 @@
-import { isNumber } from "util";
-
 export class SearchRequest {
     constructor() {
         this.simpleFilter = new SimpleFilter();
         this.additionalServices = [];
         for(let key in ServiceType)
         {
-            if (+key != NaN) {
+            if (!isNaN(+key)) {
                 this.additionalServices.push(new AdditionalServices(+key));
             }
         }
@@ -23,15 +21,23 @@ export class AdditionalServices {
             case ServiceType.Venue:
             this.service = new VenueFilter();
             this.includeService = true;
+            this.label = "Need venue";
             break;
             case ServiceType.Catering:
             this.includeService = true;
+            this.label = "Need catering";
+            this.service = {};
+            break;
+            case ServiceType.AdditionalServices:
+            this.includeService = false;
+            this.label = "Need extra services";
             this.service = {};
             break;
         }
     }
     type: ServiceType;
     includeService: boolean;
+    label: string;
     service: IService;
 }
 
@@ -43,6 +49,8 @@ export class SimpleFilter {
 
     constructor() {
         this.dateRange = new DateRange();
+        this.peopleNumber = 2000;
+        this.location = "Lviv";
     }
 
     location: string;
@@ -55,7 +63,7 @@ export class SimpleFilter {
 }
 
 export class DateRange {
-    public rangeType: DateRangeType;
+    public rangeType: DateRangeType = DateRangeType.AnyDate;
     public fromDate: Date;
     public toDate: Date;
     public duration: number;
@@ -87,5 +95,6 @@ export enum DateRangeType {
 
 export enum ServiceType {
     Venue = 0,
-    Catering = 1
+    Catering = 1,
+    AdditionalServices = 2
 }

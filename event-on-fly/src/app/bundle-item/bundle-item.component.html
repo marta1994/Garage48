@@ -1,6 +1,6 @@
 <mat-card class="example-card">
     <mat-card-header>
-      <span class="price">{{'$' + (bundle.venue.price + bundle.catering.price)}}</span>
+      <span class="price">{{'$' + (bundle.venue.price)}}</span>
       <span class="price-text">total price</span>
       <mat-divider></mat-divider>
     </mat-card-header>
@@ -14,14 +14,14 @@
           <span class="price">{{'$' + bundle.venue.price}}</span>
         </div>
       </section>
-      <section>
+      <!-- <section>
           <mat-checkbox [(ngModel)]="bundle.catering.useIt">Venue</mat-checkbox>
           <img [src]="bundle.catering.image"/>
           <span class="item-name">{{bundle.catering.name}}</span>
           <div class="facilities-container">
             <span class="price">{{'$' + bundle.catering.price}}</span>
           </div>
-        </section>
+        </section> -->
     </mat-card-content>
     <mat-card-actions>
       <button mat-button>Book now</button>
