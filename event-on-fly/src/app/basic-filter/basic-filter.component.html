@@ -3,7 +3,7 @@
         <mat-option *ngFor="let location of availableLocations" [value]="location">
             {{ location }}
         </mat-option>
-        
+
     </mat-select>
     <mat-form-field>
         <input type="text" matInput placeholder="Number of participants" [(ngModel)]="basicFilter.peopleNumber">
@@ -35,12 +35,12 @@
 
         <div class="specific-date" *ngIf="dateRangeType === 2">
             <mat-form-field>
-                <input matInput  [matDatepicker]="picker2" placeholder="Choose a date">
+                <input matInput  [matDatepicker]="picker2" placeholder="Period start">
                 <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
                 <mat-datepicker #picker2></mat-datepicker>
             </mat-form-field>
             <mat-form-field>
-                <input matInput  [matDatepicker]="picker3" placeholder="Choose a date">
+                <input matInput  [matDatepicker]="picker3" placeholder="Period end">
                 <mat-datepicker-toggle matSuffix [for]="picker3"></mat-datepicker-toggle>
                 <mat-datepicker #picker3></mat-datepicker>
             </mat-form-field>
