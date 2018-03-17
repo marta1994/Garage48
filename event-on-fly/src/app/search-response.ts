@@ -1,10 +1,11 @@
     export class SearchResponse {
-        venues: Venue[];
+        bundles: Bundle[];
     }
 
     export class Bundle {
         venue: Venue;
         catering: VenueCatering;
+        price: number;
     }
 
     export class Catering {
