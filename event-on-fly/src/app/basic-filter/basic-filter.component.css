@@ -21,6 +21,7 @@ mat-select {
 
 .preferences {
     display: inline-block;
+    margin-bottom: 15px;
 }
 
 .checkbox {
