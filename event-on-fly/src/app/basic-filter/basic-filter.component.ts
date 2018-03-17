@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { SimpleFilter } from '../search-request';
 
 @Component({
   selector: 'app-basic-filter',
@@ -12,8 +13,14 @@ export class BasicFilterComponent implements OnInit {
     "Odesa",
     "Kyiv"
   ]
+  public selectLocationPlaceholder: string = "Select location"
 
-  public location: string;
+private _basicFilter: SimpleFilter;
+  @Input()
+  set basicFilter(value: SimpleFilter) {
+    this._basicFilter = value;
+  }
+  get basicFilter(): SimpleFilter { return this._basicFilter; }
 
   constructor() { }
 

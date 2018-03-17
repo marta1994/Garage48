@@ -9,6 +9,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import {MatSelectModule} from '@angular/material/select';
+import {MatInputModule} from '@angular/material/input';
 
 import { AppComponent } from './app.component';
 import { FilterComponent } from './filter/filter.component';
@@ -35,10 +36,12 @@ export const firebaseConfig = {
     AngularFireDatabaseModule,
     BrowserAnimationsModule,
     NoopAnimationsModule,
-    MatSelectModule
+    MatSelectModule,
+    MatInputModule
   ],
   exports: [
-    MatSelectModule
+    MatSelectModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,7 +1,8 @@
 <div>
-    <mat-select>
-        <mat-option *ngFor="let location of availableLocations" [value]="location">
+    <mat-select placeholder="{{selectLocationPlaceholder}}">
+        <mat-option *ngFor="let location of availableLocations" [value]="basicFilter.location">
             {{ location }}
           </mat-option>
     </mat-select>
+    <input matInput placeholder="Number of participants" value="basicFilter.peopleNumber">
 </div>
