@@ -1,5 +1,5 @@
 <section class="filters">
     <app-basic-filter [basicFilter]="filter.simpleFilter"></app-basic-filter>
     <app-venue-filter [venueFilter]="getAdditionalFilter(0)"></app-venue-filter>
-    <button mat-button color="accent" (click)="runSearch()">Search</button>
+    <app-search-action></app-search-action>
 </section>

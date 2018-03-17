@@ -1,2 +1,7 @@
-<app-filter></app-filter>
-
+<div *ngIf="searchService.currentPage === 0" class="start-filter">
+    <app-basic-filter [basicFilter]="searchService.searchRequest.simpleFilter"
+    [showSearch]="true"></app-basic-filter>
+</div>
+<div *ngIf="searchService.currentPage === 1">
+    <app-filter></app-filter>
+</div>

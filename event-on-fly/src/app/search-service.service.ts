@@ -14,6 +14,8 @@ export class SearchServiceService {
 
   venues: Observable<Venue[]> = null;
 
+  public currentPage: CurrentPage = CurrentPage.StartFiler;
+
   constructor(private db: AngularFireDatabase) {
   }
 
@@ -47,4 +49,9 @@ export class SearchServiceService {
 
     this.filteredVenues = this.venues.map(venue => venue.filter(v => v.square < squareFrom && v.square > squareTo));
   }
+}
+
+export enum CurrentPage {
+  StartFiler = 0,
+  ExtendedFilter = 1
 }
