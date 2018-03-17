@@ -1,6 +1,8 @@
 <mat-card>
   <mat-card-header>
-    <span class="price">{{'$' + (bundle.venue.price.amount + bundle.catering.price)}}</span>
+    <span class="price">
+      {{'$' + ((bundle.venue.useIt ? bundle.venue.price.amount : 0 ) + (bundle.catering.useIt ? bundle.catering.price : 0))}}
+    </span>
     <span class="price-text">total price</span>
   </mat-card-header>
   <div class="divider"></div>
