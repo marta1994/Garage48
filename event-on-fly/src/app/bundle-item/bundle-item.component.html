@@ -26,11 +26,11 @@
           <div class="facilities-container">
             <span class="price">{{'$' + bundle.catering.price}}</span>
           </div>
-        </section> -->
+        </section> -->        
   </mat-card-content>
   <mat-card-actions>
     <div class="dummy-div"></div>
     <button mat-raised-button color="accent">Book now</button>
-    <button mat-raised-button color="accent">View details</button>
+    <button mat-raised-button color="accent" (click)="viewDetails()">View details</button>
   </mat-card-actions>
 </mat-card>

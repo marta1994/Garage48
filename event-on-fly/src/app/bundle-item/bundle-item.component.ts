@@ -22,4 +22,8 @@ export class BundleItemComponent implements OnInit {
   ngOnInit() {
   }
 
+  public viewDetails() {
+    
+  }
+
 }
