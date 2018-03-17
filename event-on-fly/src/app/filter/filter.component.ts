@@ -19,7 +19,8 @@ export class FilterComponent implements OnInit {
   }
 
   public getAdditionalFilter(type: ServiceType): any {
-    return this.filter.additionalServices.filter(it =>
-    it.type === type)[0];
+    let result = this.filter.additionalServices.filter(it =>
+    it.type === type)[0].service;
+    return result;
   }
 }

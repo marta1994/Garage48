@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Venue } from '../search-response';
+import { Bundle } from '../search-response';
 
 @Component({
   selector: 'app-bundle-item',
@@ -10,13 +10,13 @@ export class BundleItemComponent implements OnInit {
 
   constructor() { }
 
-  private _venue: Venue;
+  private _bundle: Bundle;
   @Input()
-  set venue(value: Venue) {
-    this._venue = value;
+  set bundle(value: Bundle) {
+    this._bundle = value;
   }
-  get venue(): Venue {
-    return this._venue;
+  get bundle(): Bundle {
+    return this._bundle;
   }
 
   ngOnInit() {

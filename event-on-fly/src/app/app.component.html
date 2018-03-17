@@ -4,4 +4,8 @@
 </div>
 <div *ngIf="searchService.currentPage === 1">
     <app-filter></app-filter>
+    <div class="bundles">
+        <app-bundle-item *ngFor="let bundle of searchService.bundles" [bundle]="item">
+        </app-bundle-item>
+    </div>
 </div>
