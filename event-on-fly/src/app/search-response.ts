@@ -3,7 +3,8 @@
     }
 
     export class Bundle {
-        
+        venue: Venue;
+        price: number;
     }
 
     export class Bundle {

@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
 import { AngularFireDatabase } from 'angularfire2/database';
 import { SearchRequest, VenueFilter, IService, AdditionalServices, ServiceType } from './search-request';
-import { SearchResponse, Venue } from './search-response';
 import { FirebaseListObservable } from 'angularfire2/database-deprecated';
 import { Observable } from 'rxjs/Observable';
+import { Venue, Bundle } from './search-response';
 
 @Injectable()
 export class SearchServiceService {
@@ -12,10 +12,12 @@ export class SearchServiceService {
 
   public searchRequest: SearchRequest = new SearchRequest();
 
-  venues: Observable<Venue[]> = null;
+  public bundles: Bundle[];
 
   public currentPage: CurrentPage = CurrentPage.StartFiler;
 
+  venues: Venue[];
+  
   constructor(private db: AngularFireDatabase) {
   }
 
@@ -23,35 +25,48 @@ export class SearchServiceService {
 
   requestedVenue: VenueFilter;
 
-  getBundleList(): Observable<Venue[]> {
-    this.venues =  this.db.list<Venue>(this.basePath).valueChanges();
-
+  getBundleList(): Venue[] {
+   var subscription = this.db.list<Venue>("/venues").valueChanges().subscribe(venueData => {
+    this.venues = venueData;
+   this.bundles = this.getFuckingBundles(this.venues);
+  });
+  
+    var getService= this.searchRequest.additionalServices.find(service => service.type == ServiceType.Venue);
     this.requestedVenue = <VenueFilter>(this.searchRequest.additionalServices.find(service => service.type == ServiceType.Venue).service);
 
     return this.venues;
   }
 
+  private getFuckingBundles(venuesData) {
+     var capacityMatched = this.filterByCapacity();
+
+     var bundleData = [];
+
+     var bundle = new Bundle();
+     bundle.price = 1000;
+     bundle.venue = capacityMatched[0];
+
+     bundleData.push(bundle);
+     return bundleData;
+  }
+
   private filterByCapacity() {
     var requestedNumber = this.searchRequest.simpleFilter.peopleNumber;
-    this.filteredVenues = this.venues.map(venue => venue.filter(v => v.peopleNumber == requestedNumber));
+    return this.venues.filter(venue => venue.peopleNumber >= requestedNumber);
   }
 
   private filterByPrice() {
     var priceFrom = this.requestedVenue.priceFrom;
     var priceTo = this.requestedVenue.priceTo;
 
-    this.filteredVenues = this.venues.map(venue => venue.filter(v => v.price.amount < priceTo && v.price.amount > priceFrom));
+    return this.venues.filter(venue => venue.price.amount < priceTo && venue.price.amount > priceFrom);
   }
 
   private filterBySquareSize() {
     var squareFrom = this.requestedVenue.squareFrom;
     var squareTo = this.requestedVenue.squareTo;
 
-    this.filteredVenues = this.venues.map(venue => venue.filter(v => v.square < squareFrom && v.square > squareTo));
-  }
-
-  private filterVenues() {
-    return ;
+    return this.venues.filter(venue => venue.square < squareFrom && venue.square > squareTo);
   }
 }
 
