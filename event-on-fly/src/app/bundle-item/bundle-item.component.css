@@ -1,3 +1,7 @@
+mat-card {
+    margin-bottom: 20px;
+}
+
 img {
     width: 200px;
     height: 130px;
@@ -14,6 +18,10 @@ img {
     padding-top: 7px;
     padding-left: 5px;
     color: #aaaaaa;
+}
+
+section {
+    margin-bottom: 10px;
 }
 
 .price {

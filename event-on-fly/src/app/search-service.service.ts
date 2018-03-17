@@ -48,6 +48,7 @@ export class SearchServiceService {
     var bundleData = [];
 
     for (var index = 0; index < matchedVenue.length; index++) {
+      matchedVenue[index].useIt = true;
       bundleData.push(this.newBundle(matchedVenue, matchedCatering, index));
     }
 

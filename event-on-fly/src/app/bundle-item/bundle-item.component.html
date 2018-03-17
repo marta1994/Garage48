@@ -1,6 +1,6 @@
-<mat-card class="example-card">
+<mat-card>
   <mat-card-header>
-    <span class="price">{{'$' + (bundle.venue.price.amount)}}</span>
+    <span class="price">{{'$' + (bundle.venue.price.amount + bundle.catering.price)}}</span>
     <span class="price-text">total price</span>
   </mat-card-header>
   <div class="divider"></div>
@@ -13,20 +13,24 @@
           <span class="item-name">{{bundle.venue.name}}</span>
           <span class="item-address">{{bundle.venue.location.address}}</span>
           <div class="facilities-container">
-            
+
           </div>
           <span class="price price-abs">{{'$' + bundle.venue.price.amount}}</span>
         </div>
       </div>
     </section>
-    <!-- <section>
-          <mat-checkbox [(ngModel)]="bundle.catering.useIt">Venue</mat-checkbox>
-          <img [src]="bundle.catering.image"/>
+    <section>
+      <mat-checkbox [(ngModel)]="bundle.catering.useIt">Catering</mat-checkbox>
+      <div class="info-container">
+        <img [src]="bundle.catering.image" />
+        <div class="internal-info-container">
           <span class="item-name">{{bundle.catering.name}}</span>
           <div class="facilities-container">
-            <span class="price">{{'$' + bundle.catering.price}}</span>
           </div>
-        </section> -->
+          <span class="price price-abs">{{'$' + bundle.catering.price}}</span>
+        </div>
+      </div>
+    </section>
   </mat-card-content>
   <mat-card-actions>
     <div class="dummy-div"></div>
