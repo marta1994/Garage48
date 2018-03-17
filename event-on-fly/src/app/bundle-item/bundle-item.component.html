@@ -11,10 +11,11 @@
         <img class="info-image" [src]="bundle.venue.images[0]" />
         <div class="internal-info-container">
           <span class="item-name">{{bundle.venue.name}}</span>
-          <span class="item-address">{{bundle.venue.location}}</span>
+          <span class="item-address">{{bundle.venue.location.address}}</span>
           <div class="facilities-container">
-            <span class="price">{{'$' + bundle.venue.price.amount}}</span>
+            
           </div>
+          <span class="price price-abs">{{'$' + bundle.venue.price.amount}}</span>
         </div>
       </div>
     </section>
@@ -28,7 +29,8 @@
         </section> -->
   </mat-card-content>
   <mat-card-actions>
-    <button mat-button>Book now</button>
-    <button mat-button>View details</button>
+    <div class="dummy-div"></div>
+    <button mat-raised-button color="accent">Book now</button>
+    <button mat-raised-button color="accent">View details</button>
   </mat-card-actions>
 </mat-card>

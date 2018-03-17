@@ -37,16 +37,41 @@ mat-card-content {
     display: flex;
 }
 
-.info-image {
-    flex: 0;
-}
-
 .internal-info-container {
     flex: 1;
     background: #eeeeee;
     margin-left: 15px;
+    position: relative;
 }
 
 .item-name {
+    margin: 10px;
+    margin-bottom: 5px;
+    display: block;
+    text-decoration: underline;
+    font-size: 20px;
+    cursor: pointer;
+}
 
+.item-address {
+    margin-left: 10px;
+    font-size: 13px;
+    color: #777777;
+}
+
+.price-abs {
+    position: absolute;
+    right: 0;
+    margin-right: 35px;
+    top: 50%;
+    margin-top: -15px;
+}
+
+mat-card-actions {
+    display: flex;
+    margin-right: 0;
+}
+
+.dummy-div {
+    flex: 1;
 }
