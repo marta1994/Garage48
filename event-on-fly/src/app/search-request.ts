@@ -31,6 +31,7 @@ export class SimpleFilter {
 }
 
 export class DateRange {
+    public rangeType: DateRangeType;
     public fromDate: Date;
     public toDate: Date;
     public duration: number;
@@ -38,6 +39,12 @@ export class DateRange {
 
 export class VenueFilter implements IService {
     squareRange: any;
+}
+
+export enum DateRangeType {
+    AnyDate = 0,
+    SpecificDate = 1,
+    DateRange = 2
 }
 
 export enum ServiceType {

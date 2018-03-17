@@ -1,15 +1,17 @@
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import {FormsModule} from '@angular/forms';
+import {HttpModule} from '@angular/http';
+
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 
-import {FormsModule} from '@angular/forms';
-import {HttpModule} from '@angular/http';
 import {BrowserAnimationsModule, NoopAnimationsModule} from '@angular/platform-browser/animations';
-
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
 
 import {MatSelectModule} from '@angular/material/select';
 import {MatInputModule} from '@angular/material/input';
+import {MatRadioModule} from '@angular/material/radio';
+import {MatDatepickerModule} from '@angular/material/datepicker';
 
 import {SearchServiceService} from './search-service.service';
 import { AppComponent } from './app.component';
@@ -38,11 +40,15 @@ export const firebaseConfig = {
     BrowserAnimationsModule,
     NoopAnimationsModule,
     MatSelectModule,
-    MatInputModule
+    MatInputModule,
+    MatRadioModule,
+    MatDatepickerModule
   ],
   exports: [
     MatSelectModule,
-    MatInputModule
+    MatInputModule,
+    MatRadioModule,
+    MatDatepickerModule
   ],
   providers: [
     SearchServiceService

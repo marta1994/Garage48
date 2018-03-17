@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { SimpleFilter } from '../search-request';
+import { SimpleFilter, DateRangeType } from '../search-request';
 
 @Component({
   selector: 'app-basic-filter',
@@ -20,6 +20,12 @@ export class BasicFilterComponent implements OnInit {
     "Sports"
   ];
 
+  public dateOptions: [{name: string, value: number}] = [
+    {name: "Any time", value: DateRangeType.AnyDate},
+    {name: "Specific date", value: DateRangeType.SpecificDate},
+    {name: "Time range", value: DateRangeType.DateRange}
+  ];
+
 private _basicFilter: SimpleFilter;
   @Input()
   set basicFilter(value: SimpleFilter) {
@@ -32,4 +38,11 @@ private _basicFilter: SimpleFilter;
   ngOnInit() {
   }
 
+  public get dateRangeType(): DateRangeType {
+    return this.basicFilter.dateRange.rangeType;
+  }
+
+  public set dateRangeType(val: DateRangeType) {
+    this.basicFilter.dateRange.rangeType = val;
+  }
 }
