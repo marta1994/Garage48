@@ -10,6 +10,8 @@ import {BrowserAnimationsModule, NoopAnimationsModule} from '@angular/platform-b
 
 import {MatSelectModule} from '@angular/material/select';
 import {MatInputModule} from '@angular/material/input';
+import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatCardModule} from '@angular/material/card';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 
@@ -17,6 +19,7 @@ import {SearchServiceService} from './search-service.service';
 import { AppComponent } from './app.component';
 import { FilterComponent } from './filter/filter.component';
 import { BasicFilterComponent } from './basic-filter/basic-filter.component';
+import { VenueFilterComponent } from './venue-filter/venue-filter.component';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyDFey1JYAWe874FyVKIZ5b-IzqZjm9zBSU",
@@ -29,7 +32,8 @@ export const firebaseConfig = {
   declarations: [
     AppComponent,
     FilterComponent,
-    BasicFilterComponent
+    BasicFilterComponent,
+    VenueFilterComponent
   ],
   imports: [
     BrowserModule,
@@ -41,12 +45,16 @@ export const firebaseConfig = {
     NoopAnimationsModule,
     MatSelectModule,
     MatInputModule,
+    MatCheckboxModule,
+    MatCardModule,
     MatRadioModule,
     MatDatepickerModule
   ],
   exports: [
     MatSelectModule,
     MatInputModule,
+    MatCheckboxModule,
+    MatCardModule,
     MatRadioModule,
     MatDatepickerModule
   ],

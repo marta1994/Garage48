@@ -1,0 +1,36 @@
+<mat-card class="venue-filter-card">
+  <mat-card-content>
+    <h2>Venue filters</h2>
+    <section class="venue-filter">
+      <mat-checkbox class="example-margin" [(ngModel)]="venueFilter.providedWifi">Free WiFi</mat-checkbox>
+      <mat-checkbox class="example-margin" [(ngModel)]="venueFilter.wardrobe">Wardrobe</mat-checkbox>
+      <mat-checkbox class="example-margin" [(ngModel)]="venueFilter.parking">Parking</mat-checkbox>
+      <mat-checkbox class="example-margin" [(ngModel)]="venueFilter.securityGuard">Security Guard</mat-checkbox>
+      <mat-checkbox class="example-margin" [(ngModel)]="venueFilter.cleaningServiceIncluded">Cleaning service</mat-checkbox>
+      <mat-checkbox class="example-margin" [(ngModel)]="venueFilter.offerCatering">Have own catering</mat-checkbox>
+      <mat-checkbox class="example-margin" [(ngModel)]="venueFilter.allowThirdPartyCatering">Allows third-party catering</mat-checkbox>
+      <mat-checkbox class="example-margin" [(ngModel)]="venueFilter.cityCenter">Close to city center</mat-checkbox>
+
+      <form class="price-range">
+        <h3>Price ($)</h3>
+        <mat-form-field class="from">
+          <input matInput placeholder="From">
+        </mat-form-field>
+
+        <mat-form-field class="to">
+          <input matInput placeholder="To">
+        </mat-form-field>
+      </form>
+      <form class="square-range">
+        <h3>Square (m^2)</h3>
+        <mat-form-field class="from">
+          <input matInput placeholder="From">
+        </mat-form-field>
+
+        <mat-form-field class="to">
+          <input matInput placeholder="To">
+        </mat-form-field>
+      </form>
+    </section>
+  </mat-card-content>
+</mat-card>
