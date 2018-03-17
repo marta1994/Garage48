@@ -14,6 +14,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatCardModule} from '@angular/material/card';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatNativeDateModule} from '@angular/material/core';
 
 import {SearchServiceService} from './search-service.service';
 import { AppComponent } from './app.component';
@@ -48,7 +49,8 @@ export const firebaseConfig = {
     MatCheckboxModule,
     MatCardModule,
     MatRadioModule,
-    MatDatepickerModule
+    MatDatepickerModule,
+    MatNativeDateModule
   ],
   exports: [
     MatSelectModule,
@@ -56,7 +58,8 @@ export const firebaseConfig = {
     MatCheckboxModule,
     MatCardModule,
     MatRadioModule,
-    MatDatepickerModule
+    MatDatepickerModule,
+    MatNativeDateModule
   ],
   providers: [
     SearchServiceService
