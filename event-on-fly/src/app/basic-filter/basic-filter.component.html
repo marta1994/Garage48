@@ -1,26 +1,30 @@
 <mat-card class="basic-filter-card">
     <mat-card-content>
-        <section class="preferences">            
-            <mat-checkbox class="checkbox" *ngFor="let item of additionalServices"
-            [(ngModel)]="item.includeService">{{item.label}}</mat-checkbox>
+        <section class="preferences">
+            <mat-checkbox class="checkbox" *ngFor="let item of additionalServices" [(ngModel)]="item.includeService">{{item.label}}</mat-checkbox>
         </section>
         <section class="basic-filter location">
-            <mat-select placeholder="Location" [(ngModel)]="basicFilter.location">
-                <mat-option *ngFor="let location of availableLocations" [value]="location">
-                    {{ location }}
-                </mat-option>
-            </mat-select>
-            <mat-select placeholder="Event type" [(ngModel)]="basicFilter.eventType">
-                <mat-option *ngFor="let eventType of availableEventTypes" [value]="eventType">
-                    {{ eventType }}
-                </mat-option>
-            </mat-select>
+            <mat-form-field>
+                <mat-select placeholder="Location" [(ngModel)]="basicFilter.location">
+                    <mat-option *ngFor="let location of availableLocations" [value]="location">
+                        {{ location }}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-select placeholder="Event type" [(ngModel)]="basicFilter.eventType">
+                    <mat-option *ngFor="let eventType of availableEventTypes" [value]="eventType">
+                        {{ eventType }}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
             <mat-form-field>
                 <input type="number" matInput placeholder="Number of participants" [(ngModel)]="basicFilter.peopleNumber">
             </mat-form-field>
         </section>
 
         <section class="basic-filter date-range">
+            <span>Date info</span>
             <mat-radio-group class="date-group" [(ngModel)]="dateRangeType">
                 <mat-radio-button *ngFor="let option of dateOptions" [value]="option.value">
                     {{option.name}}
@@ -57,15 +61,15 @@
         </section>
 
         <section class="basic-filter budget-range">
-                <h4>Budget ($)</h4>
-                <mat-form-field class="from">
-                  <input matInput placeholder="From" [(ngModel)]="basicFilter.priceFrom" [ngModelOptions]="{standalone: true}">
-                </mat-form-field>
-        
-                <mat-form-field class="to">
-                  <input matInput placeholder="To"  [(ngModel)]="basicFilter.priceTo" [ngModelOptions]="{standalone: true}">
-                </mat-form-field>
-            </section>
+            <h4>Budget ($)</h4>
+            <mat-form-field class="from">
+                <input matInput placeholder="From" [(ngModel)]="basicFilter.priceFrom" [ngModelOptions]="{standalone: true}">
+            </mat-form-field>
+
+            <mat-form-field class="to">
+                <input matInput placeholder="To" [(ngModel)]="basicFilter.priceTo" [ngModelOptions]="{standalone: true}">
+            </mat-form-field>
+        </section>
         <app-search-action *ngIf="showSearch"></app-search-action>
     </mat-card-content>
 </mat-card>
