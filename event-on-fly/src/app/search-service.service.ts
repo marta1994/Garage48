@@ -57,42 +57,37 @@ export class SearchServiceService {
     return this.venues.filter(venue => venue.peopleNumber >= requestedNumber);
   }
 
-  // private filterByPrice() {
-  //  var reqVenue =  <VenueFilter>(this.requestedVenue);
-  //   var priceFrom = this.requestedVenue.priceFrom;
-  //   var priceTo = this.requestedVenue.priceTo;
+  private filterByPrice(filteredData) {
+   var reqVenue =  <VenueFilter>(this.requestedVenue.service);
+    var priceFrom = reqVenue.priceFrom;
+    var priceTo = reqVenue.priceTo;
 
-  //   return this.venues.filter(venue => venue.price.amount < priceTo && venue.price.amount > priceFrom);
-  // }
+    return filteredData.filter(venue => venue.price.amount < priceTo && venue.price.amount > priceFrom);
+  }
 
-  // private filterBySquareSize() {
-  //   var squareFrom = this.requestedVenue.squareFrom;
-  //   var squareTo = this.requestedVenue.squareTo;
+  private filterBySquareSize(filteredData) {
+    var reqVenue =  <VenueFilter>(this.requestedVenue.service);
+    var squareFrom = reqVenue.squareFrom;
+    var squareTo = reqVenue.squareTo;
 
-  //   return this.venues.filter(venue => venue.square < squareFrom && venue.square > squareTo);
-  // }
+    return filteredData.filter(venue => venue.square < squareFrom && venue.square > squareTo);
+  }
 
   private filteredVenue() {
-    var reqVenue =  <VenueFilter>(this.requestedVenue.service);
     var requestedNumber = 0;
-    var squareFrom = 0; 
-    var squareTo = 0; 
 
     if (this.searchRequest.simpleFilter.peopleNumber) {
       requestedNumber = this.searchRequest.simpleFilter.peopleNumber;
     }
 
-    if(reqVenue.squareFrom) {
-      squareFrom = reqVenue.squareFrom;
+    var filteredData = this.venues.filter(venue => venue.peopleNumber >= requestedNumber);
+
+    if((<VenueFilter>(this.requestedVenue.service)).squareFrom){
+      this.filterBySquareSize(filteredData);
+      this.filterByPrice(filteredData);
     }
 
-    if(reqVenue.squareTo) {
-      squareTo = reqVenue.squareTo;
-    }
-
-    return this.venues.filter(venue => venue.peopleNumber >= requestedNumber
-                               && venue.square < squareFrom
-                                && venue.square > squareTo);
+    return filteredData;
   }
 }
 

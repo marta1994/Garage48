@@ -1,12 +1,17 @@
-    export class SearchResponse {
-        bundles: Bundle[];
+export class SearchResponse {
+    bundles: Bundle[];
+}
+
+export class Bundle {
+    constructor() {
+        this.venue = new Venue();
+        this.catering = new VenueCatering;
     }
 
-    export class Bundle {
-        venue: Venue;
-        catering: VenueCatering;
-        price: number;
-    }
+    venue: Venue;
+    catering: VenueCatering;
+    price: number;
+}
 
     export class Catering {
         name: string;
@@ -40,19 +45,19 @@
         useIt: boolean = true;
     }
 
-    export class VenueCatering {
-        allowOther: boolean;
-        canOffer: boolean;
-    }
+export class VenueCatering {
+    allowOther: boolean;
+    canOffer: boolean;
+}
 
-    export class Location {
-        address: string;
-        city: string;
-        latitude: string;
-        longitude: string;
-    }
+export class Location {
+    address: string;
+    city: string;
+    latitude: string;
+    longitude: string;
+}
 
-    export class Price {
-        amount: number;
-        currency: string;
-    }
+export class Price {
+    amount: number;
+    currency: string;
+}
