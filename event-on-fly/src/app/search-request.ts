@@ -47,6 +47,9 @@ export class SimpleFilter {
     peopleNumber: number;
     eventType: string;
     dateRange: DateRange;
+    needCatering: Boolean;
+    needVenue: Boolean;
+    needExtraService: Boolean;    
 }
 
 export class DateRange {
