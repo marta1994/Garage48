@@ -2,12 +2,50 @@
     <mat-select placeholder="Location">
         <mat-option *ngFor="let location of availableLocations" [value]="basicFilter.location">
             {{ location }}
-          </mat-option>
+        </mat-option>
     </mat-select>
-    <input matInput placeholder="Number of participants" value="basicFilter.peopleNumber">
+    <mat-form-field>
+        <input type="text" matInput placeholder="Number of participants" [(ngModel)]="basicFilter.peopleNumber">
+    </mat-form-field>
     <mat-select placeholder="Event type">
         <mat-option *ngFor="let eventType of availableEventTypes" [value]="basicFilter.eventType">
             {{ eventType }}
-          </mat-option>
+        </mat-option>
     </mat-select>
+
+    <div class="date-range">
+        <mat-radio-group [(ngModel)]="dateRangeType">
+            <mat-radio-button *ngFor="let option of dateOptions" [value]="option.value">
+                {{option.name}}
+            </mat-radio-button>
+        </mat-radio-group>
+
+        <!--<div class="any-time" *ngIf="dateRangeType === 0">
+
+        </div>
+
+        <div class="specific-date" *ngIf="dateRangeType === 1">
+            <mat-form-field>
+                <input matInput [(ngModel)]="basicFilter.dateRange.fromDate" [matDatepicker]="picker" placeholder="Choose a date">
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+            </mat-form-field>
+        </div>
+
+        <div class="specific-date" *ngIf="dateRangeType === 2">
+            <mat-form-field>
+                <input matInput [(ngModel)]="basicFilter.dateRange.fromDate" [matDatepicker]="picker" placeholder="Choose a date">
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput [(ngModel)]="basicFilter.dateRange.toDate" [matDatepicker]="picker" placeholder="Choose a date">
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+            </mat-form-field>
+            <mat-form-field>
+                <input matInput placeholder="Duration (in days)" [(ngModel)]="basicFilter.dateRange.duration">
+            </mat-form-field>
+        </div>-->
+    </div>
 </div>

@@ -50,6 +50,7 @@ export class SimpleFilter {
 }
 
 export class DateRange {
+    public rangeType: DateRangeType;
     public fromDate: Date;
     public toDate: Date;
     public duration: number;
@@ -71,6 +72,12 @@ export class VenueFilter implements IService {
     allowThirdPartyCatering: Boolean;
     priceFrom: Number;
     priceTo: Number;
+}
+
+export enum DateRangeType {
+    AnyDate = 0,
+    SpecificDate = 1,
+    DateRange = 2
 }
 
 export enum ServiceType {
