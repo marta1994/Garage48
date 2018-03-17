@@ -1,0 +1,20 @@
+.basic-filter-card {
+    display: flex;
+}
+
+.basic-filter {
+    display: flex;
+    flex-direction: column;
+}
+
+mat-select {
+    margin-bottom: 20px;
+}
+
+.date-group {
+    display: flex;
+}
+
+.mat-radio-button {
+    margin: 5px 10px;
+}
