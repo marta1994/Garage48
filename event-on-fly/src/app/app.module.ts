@@ -9,7 +9,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import {MatSelectModule} from '@angular/material/select';
+import {MatInputModule} from '@angular/material/input';
 
+import {SearchServiceService} from './search-service.service';
 import { AppComponent } from './app.component';
 import { FilterComponent } from './filter/filter.component';
 import { BasicFilterComponent } from './basic-filter/basic-filter.component';
@@ -37,12 +39,16 @@ export const firebaseConfig = {
     AngularFireDatabaseModule,
     BrowserAnimationsModule,
     NoopAnimationsModule,
-    MatSelectModule
+    MatSelectModule,
+    MatInputModule
   ],
   exports: [
-    MatSelectModule
+    MatSelectModule,
+    MatInputModule
   ],
-  providers: [],
+  providers: [
+    SearchServiceService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
