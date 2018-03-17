@@ -1,26 +1,50 @@
 import { Injectable } from '@angular/core';
 import { AngularFireDatabase } from 'angularfire2/database';
-import { SearchRequest } from './search-request';
-import { SearchResponse, Bundles } from './search-response';
+import { SearchRequest, VenueFilter, IService, AdditionalServices, ServiceType } from './search-request';
+import { SearchResponse, Venue } from './search-response';
 import { FirebaseListObservable } from 'angularfire2/database-deprecated';
+import { Observable } from 'rxjs/Observable';
 
 @Injectable()
 export class SearchServiceService {
 
-  private basePath: string = '/bundles';
-
-  bundles: FirebaseListObservable<Bundles[]> = null;
+  private basePath: string = '/venues';
 
   public searchRequest: SearchRequest = new SearchRequest();
 
-  constructor(private db: AngularFireDatabase) { 
+  venues: Observable<Venue[]> = null;
+
+  constructor(private db: AngularFireDatabase) {
   }
 
-  getBundleList(query={}): FirebaseListObservable<Bundles[]> {
-    // this.bundles = this.db.list(this.basePath, {
-    //    query : query
-    // });
+  filteredVenues: any;
 
-    return this.bundles;
+  requestedVenue: VenueFilter;
+
+  getBundleList(): Observable<Venue[]> {
+    this.venues =  this.db.list<Venue>(this.basePath).valueChanges();
+
+    this.requestedVenue = <VenueFilter>(this.searchRequest.additionalServices.find(service => service.type == ServiceType.Venue).service);
+
+    return this.venues;
+  }
+
+  private filterByCapacity() {
+    var requestedNumber = this.searchRequest.simpleFilter.peopleNumber;
+    this.filteredVenues = this.venues.map(venue => venue.filter(v => v.peopleNumber == requestedNumber));
+  }
+
+  private filterByPrice() {
+    var priceFrom = this.requestedVenue.priceFrom;
+    var priceTo = this.requestedVenue.priceTo;
+
+    this.filteredVenues = this.venues.map(venue => venue.filter(v => v.price.amount < priceTo && v.price.amount > priceFrom));
+  }
+
+  private filterBySquareSize() {
+    var squareFrom = this.requestedVenue.squareFrom;
+    var squareTo = this.requestedVenue.squareTo;
+
+    this.filteredVenues = this.venues.map(venue => venue.filter(v => v.square < squareFrom && v.square > squareTo));
   }
 }

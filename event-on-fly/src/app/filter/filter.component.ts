@@ -22,4 +22,8 @@ export class FilterComponent implements OnInit {
     return this.filter.additionalServices.filter(it =>
     it.type === type)[0];
   }
+
+  public runSearch() {
+    this.searchService.getBundleList();
+  }
 }
