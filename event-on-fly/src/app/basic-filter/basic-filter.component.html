@@ -1,6 +1,10 @@
 <mat-card class="basic-filter-card">
     <mat-card-content>
-    <h3>Filter by</h3>
+        <section class="preferences">            
+            <mat-checkbox class="checkbox" [(ngModel)]="basicFilter.needVenue">Need venue</mat-checkbox>
+            <mat-checkbox class="checkbox" [(ngModel)]="basicFilter.needCatering">Need catering</mat-checkbox>
+            <mat-checkbox class="checkbox" [(ngModel)]="basicFilter.needExtraService">Need extra service</mat-checkbox>
+        </section>
         <section class="basic-filter location">
             <mat-select placeholder="Location" [(ngModel)]="basicFilter.location">
                 <mat-option *ngFor="let location of availableLocations" [value]="location">

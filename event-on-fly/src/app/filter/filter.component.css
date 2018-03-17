@@ -1,5 +1,9 @@
 .filters {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 450px;
+}
+
+.filter {
+    margin: 20px 0;
 }
