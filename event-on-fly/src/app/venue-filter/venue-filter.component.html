@@ -14,21 +14,21 @@
       <form class="price-range">
         <h4>Price ($)</h4>
         <mat-form-field class="from">
-          <input matInput placeholder="From" [(ngModel)]="venueFilter.priceFrom">
+          <input matInput placeholder="From" [(ngModel)]="venueFilter.priceFrom" [ngModelOptions]="{standalone: true}">
         </mat-form-field>
 
         <mat-form-field class="to">
-          <input matInput placeholder="To"  [(ngModel)]="venueFilter.priceTo">
+          <input matInput placeholder="To"  [(ngModel)]="venueFilter.priceTo" [ngModelOptions]="{standalone: true}">
         </mat-form-field>
       </form>
       <form class="square-range">
         <h4>Square (m^2)</h4>
         <mat-form-field class="from">
-          <input matInput placeholder="From" [(ngModel)]="venueFilter.squareFrom">
+          <input matInput placeholder="From" [(ngModel)]="venueFilter.squareFrom" [ngModelOptions]="{standalone: true}">
         </mat-form-field>
 
         <mat-form-field class="to">
-          <input matInput placeholder="To" [(ngModel)]="venueFilter.squareTo">
+          <input matInput placeholder="To" [(ngModel)]="venueFilter.squareTo" [ngModelOptions]="{standalone: true}">
         </mat-form-field>
       </form>
     </section>
