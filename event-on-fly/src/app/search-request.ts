@@ -1,9 +1,15 @@
 export class SearchRequest {
+    constructor() {
+        this.simpleFilter = new SimpleFilter();
+        this.additionalServices = [];
+    }
+
     simpleFilter: SimpleFilter;
     additionalServices: AdditionalServices[];
 }
 
 export class AdditionalServices {
+
     includeService: boolean;
     service: IService;
 }
@@ -20,4 +26,9 @@ export class SimpleFilter {
 
 export class VenueFilter implements IService {
     squareRange: any;
+}
+
+export enum ServiceType {
+    Venue,
+    Catering
 }

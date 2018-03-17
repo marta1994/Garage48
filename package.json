@@ -1,0 +1,19 @@
+{
+  "name": "garage48",
+  "version": "1.0.0",
+  "description": "\"# Garage48\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marta1994/Garage48.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marta1994/Garage48/issues"
+  },
+  "homepage": "https://github.com/marta1994/Garage48#readme"
+}
