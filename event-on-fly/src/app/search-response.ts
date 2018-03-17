@@ -5,11 +5,11 @@ export class SearchResponse {
 export class Bundle {
     constructor() {
         this.venue = new Venue();
-        this.catering = new VenueCatering;
+        this.catering = new Catering;
     }
 
     venue: Venue;
-    catering: VenueCatering;
+    catering: Catering;
     price: number;
 }
 
