@@ -23,6 +23,7 @@ import { FilterComponent } from './filter/filter.component';
 import { BasicFilterComponent } from './basic-filter/basic-filter.component';
 import { VenueFilterComponent } from './venue-filter/venue-filter.component';
 import { SearchActionComponent } from './search-action/search-action.component';
+import { BundleItemComponent } from './bundle-item/bundle-item.component';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyDFey1JYAWe874FyVKIZ5b-IzqZjm9zBSU",
@@ -37,7 +38,8 @@ export const firebaseConfig = {
     FilterComponent,
     BasicFilterComponent,
     VenueFilterComponent,
-    SearchActionComponent
+    SearchActionComponent,
+    BundleItemComponent
   ],
   imports: [
     BrowserModule,

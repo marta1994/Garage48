@@ -1,11 +1,23 @@
     export class SearchResponse {
         venues: Venue[];
     }
+
+    export class Bundle {
+        venue: Venue;
+        catering: VenueCatering;
+    }
+
+    export class Catering {
+        name: string;
+        price: number;
+        image: string;
+        providedWifi: boolean;
+    }
     
     export class Venue {
         amenities: string[];
         bookedDates: Date[];
-        catering: Catering;
+        catering: VenueCatering;
         cleaningIncluded: boolean;
         description: string;
         email: string;
@@ -25,7 +37,7 @@
         website: string;
     }
 
-    export class Catering {
+    export class VenueCatering {
         allowOther: boolean;
         canOffer: boolean;
     }
