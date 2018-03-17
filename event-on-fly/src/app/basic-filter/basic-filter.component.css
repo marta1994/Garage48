@@ -1,0 +1,28 @@
+.basic-filter-card {
+    display: flex;    
+}
+
+.basic-filter {
+    display: flex;
+    flex-direction: column;
+}
+
+mat-select {
+    margin: 20px 0;
+}
+
+.date-group {
+    display: flex;
+}
+
+.mat-radio-button {
+    margin: 5px 10px 5px 0;
+}
+
+.preferences {
+    display: inline-block;
+}
+
+.checkbox {
+    margin: 5px 10px 5px 0;
+}

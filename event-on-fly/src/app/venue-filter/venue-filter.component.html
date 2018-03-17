@@ -1,0 +1,36 @@
+<mat-card class="venue-filter-card" *ngIf="venueService.includeService">
+  <mat-card-content>
+    <h3>Venue filters</h3>
+    <section class="venue-filter">
+      <mat-checkbox class="example-margin" [(ngModel)]="venueFilter.providedWifi">Free WiFi</mat-checkbox>
+      <mat-checkbox class="example-margin" [(ngModel)]="venueFilter.wardrobe">Wardrobe</mat-checkbox>
+      <mat-checkbox class="example-margin" [(ngModel)]="venueFilter.parking">Parking</mat-checkbox>
+      <mat-checkbox class="example-margin" [(ngModel)]="venueFilter.securityGuard">Security Guard</mat-checkbox>
+      <mat-checkbox class="example-margin" [(ngModel)]="venueFilter.cleaningServiceIncluded">Cleaning service</mat-checkbox>
+      <mat-checkbox class="example-margin" [(ngModel)]="venueFilter.offerCatering">Have own catering</mat-checkbox>
+      <mat-checkbox class="example-margin" [(ngModel)]="venueFilter.allowThirdPartyCatering">Allows third-party catering</mat-checkbox>
+      <mat-checkbox class="example-margin" [(ngModel)]="venueFilter.cityCenter">Close to city center</mat-checkbox>
+
+      <form class="price-range">
+        <h4>Price ($)</h4>
+        <mat-form-field class="from">
+          <input matInput placeholder="From" [(ngModel)]="venueFilter.priceFrom" [ngModelOptions]="{standalone: true}">
+        </mat-form-field>
+
+        <mat-form-field class="to">
+          <input matInput placeholder="To"  [(ngModel)]="venueFilter.priceTo" [ngModelOptions]="{standalone: true}">
+        </mat-form-field>
+      </form>
+      <form class="square-range">
+        <h4>Square (m^2)</h4>
+        <mat-form-field class="from">
+          <input matInput placeholder="From" [(ngModel)]="venueFilter.squareFrom" [ngModelOptions]="{standalone: true}">
+        </mat-form-field>
+
+        <mat-form-field class="to">
+          <input matInput placeholder="To" [(ngModel)]="venueFilter.squareTo" [ngModelOptions]="{standalone: true}">
+        </mat-form-field>
+      </form>
+    </section>
+  </mat-card-content>
+</mat-card>

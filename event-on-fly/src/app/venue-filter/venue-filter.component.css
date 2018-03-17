@@ -1,0 +1,12 @@
+.venue-filter-card {
+    display: flex;
+}
+
+.venue-filter {
+    display: flex;
+    flex-direction: column;
+}
+
+mat-form-field {
+    width: 100px;
+}
