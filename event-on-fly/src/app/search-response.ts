@@ -1,5 +1,9 @@
     export class SearchResponse {
-        venues: Venue[];
+        bundles: Bundle[];
+    }
+
+    export class Bundle {
+        
     }
 
     export class Bundle {

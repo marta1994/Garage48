@@ -49,6 +49,10 @@ export class SearchServiceService {
 
     this.filteredVenues = this.venues.map(venue => venue.filter(v => v.square < squareFrom && v.square > squareTo));
   }
+
+  private filterVenues() {
+    return ;
+  }
 }
 
 export enum CurrentPage {
