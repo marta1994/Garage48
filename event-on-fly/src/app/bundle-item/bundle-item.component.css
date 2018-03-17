@@ -2,3 +2,51 @@ img {
     width: 200px;
     height: 130px;
 }
+
+.divider {
+    width: 40%;
+    border-top: 1px solid #cccccc;
+}
+
+.price-text {
+    vertical-align: bottom;
+    font-size: 15px;
+    padding-top: 7px;
+    padding-left: 5px;
+    color: #aaaaaa;
+}
+
+.price {
+    font-size: 25px;
+    color: #ff4081;
+}
+
+mat-checkbox {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 10px
+}
+
+mat-card-content {
+    margin-top: 20px;
+}
+
+.info-container {
+    margin-left: 25px;
+    display: flex;
+}
+
+.info-image {
+    flex: 0;
+}
+
+.internal-info-container {
+    flex: 1;
+    background: #eeeeee;
+    margin-left: 15px;
+}
+
+.item-name {
+
+}
