@@ -4,15 +4,15 @@
     [showSearch]="true"></app-basic-filter>
 </div>
 <div *ngIf="searchService.currentPage === 1">
-    <mat-grid-list cols="5" rowHeight="1000px">
-        <mat-grid-tile [colspan]="2">
+    <div class="content">
+        <div class="left-side">
             <app-filter></app-filter>
-        </mat-grid-tile>
-        <mat-grid-tile [colspan]="3">
+        </div>
+        <div class="main-side">
             <div class="bundles">
                 <app-bundle-item *ngFor="let bundle of searchService.bundles" [bundle]="bundle">
                 </app-bundle-item>
             </div>
-        </mat-grid-tile>
-    </mat-grid-list>
+        </div>
+    </div>
 </div>
