@@ -10,8 +10,11 @@ export class SearchServiceService {
   private basePath: string = '/bundles';
 
   bundles: FirebaseListObservable<Bundles[]> = null;
-  
-  constructor(private db: AngularFireDatabase) { }
+
+  public searchRequest: SearchRequest = new SearchRequest();
+
+  constructor(private db: AngularFireDatabase) { 
+  }
 
   getBundleList(query={}): FirebaseListObservable<Bundles[]> {
     // this.bundles = this.db.list(this.basePath, {
