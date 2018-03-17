@@ -4,12 +4,8 @@
 
     export class Bundle {
         venue: Venue;
-        price: number;
-    }
-
-    export class Bundle {
-        venue: Venue;
         catering: VenueCatering;
+        price: number;
     }
 
     export class Catering {
