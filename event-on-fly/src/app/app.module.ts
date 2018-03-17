@@ -8,9 +8,11 @@ import {BrowserAnimationsModule, NoopAnimationsModule} from '@angular/platform-b
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import {MatSelectModule} from '@angular/material/select';
 
 import { AppComponent } from './app.component';
 import { FilterComponent } from './filter/filter.component';
+import { BasicFilterComponent } from './basic-filter/basic-filter.component';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyDFey1JYAWe874FyVKIZ5b-IzqZjm9zBSU",
@@ -22,7 +24,8 @@ export const firebaseConfig = {
 @NgModule({
   declarations: [
     AppComponent,
-    FilterComponent
+    FilterComponent,
+    BasicFilterComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +34,11 @@ export const firebaseConfig = {
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule,
     BrowserAnimationsModule,
-    NoopAnimationsModule
+    NoopAnimationsModule,
+    MatSelectModule
+  ],
+  exports: [
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]
