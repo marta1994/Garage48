@@ -13,6 +13,7 @@
         price: number;
         image: string;
         providedWifi: boolean;
+        useIt: boolean = true;
     }
     
     export class Venue {
@@ -36,6 +37,7 @@
         toiletsAmount: any;
         wardrobe: boolean;
         website: string;
+        useIt: boolean = true;
     }
 
     export class VenueCatering {
