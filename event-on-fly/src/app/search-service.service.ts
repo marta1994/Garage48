@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { AngularFireDatabase } from 'angularfire2/database';
-import { SearchRequest, VenueFilter, IService, AdditionalServices, ServiceType } from './search-request';
+import { SearchRequest, VenueFilter, IService, AdditionalServices, ServiceType, DateRangeType } from './search-request';
 import { FirebaseListObservable } from 'angularfire2/database-deprecated';
 import { Observable } from 'rxjs/Observable';
 import { Venue, Bundle, Catering } from './search-response';
@@ -84,11 +84,11 @@ export class SearchServiceService {
     var priceFrom = 0;
     var priceTo = 1000000;
 
-    if(reqVenue.priceFrom){
+    if (reqVenue.priceFrom) {
       priceFrom = reqVenue.priceFrom;
     }
 
-    if(reqVenue.priceTo){
+    if (reqVenue.priceTo) {
       priceTo = reqVenue.priceTo;
     }
 
@@ -97,18 +97,52 @@ export class SearchServiceService {
 
   private filterBySquareSize(filteredData) {
     var reqVenue = <VenueFilter>(this.requestedVenue.service);
-    var squareFrom = 0; 
+    var squareFrom = 0;
     var squareTo = 10000000;
 
-    if(reqVenue.squareFrom){
+    if (reqVenue.squareFrom) {
       squareFrom = reqVenue.squareFrom;
     }
-    
-    if(reqVenue.squareTo){
+
+    if (reqVenue.squareTo) {
       squareTo = reqVenue.squareTo;
     }
 
     return filteredData.filter(venue => venue.square < squareTo && venue.square > squareFrom);
+  }
+
+  private filterByDate(filteredData) {
+    if (this.searchRequest.simpleFilter.dateRange.rangeType == DateRangeType.SpecificDate) {
+      var requestedDate = this.searchRequest.simpleFilter.dateRange.fromDate;
+
+      if (requestedDate == undefined) {
+        requestedDate = new Date('3/18/2018');
+      }
+
+      var bookedVenues = this.getBookedVenues(filteredData, requestedDate.toLocaleDateString());
+      filteredData = filteredData.filter(v => this.compareVenues(bookedVenues, v).length != 0);
+    }
+
+    return filteredData;
+  }
+
+  private getBookedVenues(filteredData, requestedDate) {
+    var bookedVenues = filteredData.filter(v => this.compareDate(v.bookedDates, requestedDate).length != 0);
+    return bookedVenues;
+  }
+
+  private compareDate(bookedDates, requestedDate) {
+    var dates = [];
+    if (bookedDates != undefined) {
+      dates = bookedDates.filter(bookedDate => bookedDate == requestedDate);
+    }
+
+    return dates;
+  }
+
+  private compareVenues(bookedVenues, venue) {
+    var filtered = bookedVenues.filter(bv => bv != venue);
+    return filtered;
   }
 
   //#endregion
@@ -121,8 +155,9 @@ export class SearchServiceService {
     }
 
     var filteredData = this.venues.filter(venue => venue.peopleNumber >= requestedNumber);
+    filteredData = this.filterByDate(filteredData);
 
-    if ((<VenueFilter>(this.requestedVenue.service)).squareFrom) {
+    if ((<VenueFilter>(this.requestedVenue.service))) {
       filteredData = this.filterBySquareSize(filteredData);
       filteredData = this.filterByPrice(filteredData);
     }
@@ -130,7 +165,7 @@ export class SearchServiceService {
     return filteredData;
   }
 
-  private filteredCatering(){
+  private filteredCatering() {
     var cateringData = [];
     var catering = new Catering();
     catering.name = 'Delicateka';
