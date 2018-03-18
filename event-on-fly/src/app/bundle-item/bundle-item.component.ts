@@ -24,10 +24,14 @@ export class BundleItemComponent implements OnInit {
   ngOnInit() {
   }
 
+
   public openBookDialog() {
     let dialogRef = this.dialog.open(BookedDialogComponent, {
       width: '250px'
     });
+  }
+
+  public viewDetails() {
   }
 
 }
