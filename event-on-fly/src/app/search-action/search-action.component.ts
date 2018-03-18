@@ -19,6 +19,8 @@ export class SearchActionComponent implements OnInit {
   public runSearch() {
     this.loadingService.startLoading();
     this.searchService.getBundleList();
-    this.router.navigate(["search"], { skipLocationChange: false });
+    this.router.navigate(["search"], { skipLocationChange: false }).then(() => {
+      window.scrollTo(0, 0);
+    });
   }
 }
