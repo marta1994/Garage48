@@ -3,7 +3,7 @@ import { AngularFireDatabase } from 'angularfire2/database';
 import { SearchRequest, VenueFilter, IService, AdditionalServices, ServiceType, DateRangeType } from './search-request';
 import { FirebaseListObservable } from 'angularfire2/database-deprecated';
 import { Observable } from 'rxjs/Observable';
-import { Venue, Bundle, Catering } from './search-response';
+import { Venue, Bundle, Catering, SearchResponse } from './search-response';
 import { PriceResult } from './price-calculation';
 
 @Injectable()
@@ -28,9 +28,12 @@ export class SearchServiceService {
   requestedVenue: AdditionalServices;
 
   getBundleList(): Venue[] {
+    this.db.list<Catering>("/caterings").valueChanges().subscribe(cateringsData => {
+           this.caterings = cateringsData;
+    });
+
     var subscription = this.db.list<Venue>("/venues").valueChanges().subscribe(venueData => {
       this.venues = venueData;
-      this.caterings = [];
       this.requestedVenue = this.searchRequest.additionalServices.find(service => service.type == ServiceType.Venue);
       this.bundles = this.getFuckingBundles(this.venues, this.caterings);
     });
@@ -58,7 +61,7 @@ export class SearchServiceService {
   private newBundle(matchedVenue, matchedCatering, index) {
     var bundle = new Bundle();
 
-    bundle.catering = matchedCatering[0];
+    bundle.catering = matchedCatering[index];
     bundle.venue = matchedVenue[index];
 
     var prices = [];
@@ -166,15 +169,15 @@ export class SearchServiceService {
   }
 
   private filteredCatering() {
-    var cateringData = [];
-    var catering = new Catering();
-    catering.name = 'Delicateka';
-    catering.image = 'https://static1.squarespace.com/static/5319e7a7e4b0ee73efefb8ed/t/538fd617e4b06d663cf6e8b1/1434558163094/Catering+copy.jpg?format=1500w';
-    catering.price = 300;
-    catering.providedWifi = true;
+    // var cateringData = [];
+    // var catering = new Catering();
+    // catering.name = 'Delicateka';
+    // catering.image = 'https://static1.squarespace.com/static/5319e7a7e4b0ee73efefb8ed/t/538fd617e4b06d663cf6e8b1/1434558163094/Catering+copy.jpg?format=1500w';
+    // catering.price = 300;
+    // catering.providedWifi = true;
 
-    cateringData.push(catering);
-    return cateringData;
+    // cateringData.push(catering);
+    return this.caterings;
   }
 }
 
