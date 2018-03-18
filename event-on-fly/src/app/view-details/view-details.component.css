@@ -1,0 +1,2274 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900");
+.page4 {
+  width: 100%;
+  min-width: 1400px;
+  height: 100vh;
+  min-height: 1753px;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  background: rgba(255, 255, 255, 1);
+}
+a {
+  text-decoration: none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.page4 .rectangle-copy {
+  background: rgba(255, 255, 255, 0);
+  top: -1px;
+  height: 875px;
+  width: 307px;
+  position: absolute;
+  margin: 0;
+  left: 47px;
+  opacity: 0.3;
+}
+.page4 .group2 {
+  background: rgba(255, 255, 255, 0);
+  top: 103px;
+  height: 18px;
+  width: 79px;
+  position: absolute;
+  margin: 0;
+  left: 93px;
+}
+.page4 .group2 .group-copy8 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 18px;
+  width: 79px;
+  position: relative;
+  margin: 0;
+  left: 0;
+}
+.page4 .group2 .group-copy8 .need-venue {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group2-copy {
+  background: rgba(255, 255, 255, 0);
+  top: 103px;
+  height: 18px;
+  width: 93px;
+  position: absolute;
+  margin: 0;
+  left: 250px;
+}
+.page4 .group2-copy .group-copy81 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 18px;
+  width: 93px;
+  position: relative;
+  margin: 0;
+  left: 0;
+}
+.page4 .group2-copy .group-copy81 .need-catering {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group10 {
+  background: rgba(255, 255, 255, 0);
+  top: 394px;
+  height: 45px;
+  width: 208px;
+  position: absolute;
+  margin: 0;
+  left: 89px;
+}
+.page4 .group10 .specific-date {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group10 .group11 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 18px;
+  width: 76px;
+  position: absolute;
+  margin: 0;
+  left: 132px;
+}
+.page4 .group10 .group11 .date-range {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group10 .group3 {
+  background: rgba(255, 255, 255, 0);
+  top: 27px;
+  height: 18px;
+  width: 56px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page4 .group10 .group3 .anytime {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group2-copy2 {
+  background: rgba(255, 255, 255, 0);
+  top: 131px;
+  height: 18px;
+  width: 126px;
+  position: absolute;
+  margin: 0;
+  left: 93px;
+}
+.page4 .group2-copy2 .group-copy82 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 18px;
+  width: 126px;
+  position: relative;
+  margin: 0;
+  left: 0;
+}
+.page4 .group2-copy2 .group-copy82 .need-extraservices {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group {
+  background: rgba(255, 255, 255, 0);
+  top: 167px;
+  height: 46px;
+  width: 265px;
+  position: absolute;
+  margin: 0;
+  left: 68px;
+}
+.page4 .group .rectangle2 {
+  background: rgba(255, 255, 255, 1);
+  top: 0;
+  height: 46px;
+  width: 265px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(206, 206, 206, 1);
+}
+.page4 .group .lviv {
+  background: rgba(255, 255, 255, 0);
+  top: 14px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 20px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group .image1 {
+  background: rgba(255, 255, 255, 0);
+  top: 19px;
+  height: 8px;
+  width: 5px;
+  position: absolute;
+  margin: 0;
+  left: 239px;
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.page4 .group-copy2 {
+  background: rgba(255, 255, 255, 0);
+  top: 225px;
+  height: 46px;
+  width: 265px;
+  position: absolute;
+  margin: 0;
+  left: 68px;
+}
+.page4 .group-copy2 .rectangle21 {
+  background: rgba(255, 255, 255, 1);
+  top: 0;
+  height: 46px;
+  width: 265px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(206, 206, 206, 1);
+}
+.page4 .group-copy2 .conference {
+  background: rgba(255, 255, 255, 0);
+  top: 14px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 20px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group-copy2 .image2 {
+  background: rgba(255, 255, 255, 0);
+  top: 19px;
+  height: 8px;
+  width: 5px;
+  position: absolute;
+  margin: 0;
+  left: 239px;
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.page4 .group-copy {
+  background: rgba(255, 255, 255, 0);
+  top: 283px;
+  height: 46px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 68px;
+}
+.page4 .group-copy .rectangle22 {
+  background: rgba(255, 255, 255, 1);
+  top: 0;
+  height: 46px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(206, 206, 206, 1);
+}
+.page4 .group-copy .a1000 {
+  background: rgba(255, 255, 255, 0);
+  top: 14px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 20px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group2-copy1 {
+  background: rgba(255, 255, 255, 0);
+  top: 580px;
+  height: 18px;
+  width: 85px;
+  position: absolute;
+  margin: 0;
+  left: 95px;
+}
+.page4 .group2-copy1 .group-copy83 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 18px;
+  width: 85px;
+  position: relative;
+  margin: 0;
+  left: 0;
+}
+.page4 .group2-copy1 .group-copy83 .all-day-event {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group4 {
+  background: rgba(255, 255, 255, 0);
+  top: 644px;
+  height: 134px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 66px;
+}
+.page4 .group4 .group-copy5 {
+  background: rgba(255, 255, 255, 0);
+  top: 30px;
+  height: 46px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page4 .group4 .group-copy5 .rectangle23 {
+  background: rgba(255, 255, 255, 1);
+  top: 0;
+  height: 46px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(206, 206, 206, 1);
+}
+.page4 .group4 .group-copy5 .a10000 {
+  background: rgba(255, 255, 255, 0);
+  top: 14px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 20px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group4 .group-copy6 {
+  background: rgba(255, 255, 255, 0);
+  top: 88px;
+  height: 46px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page4 .group4 .group-copy6 .rectangle24 {
+  background: rgba(255, 255, 255, 1);
+  top: 0;
+  height: 46px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(206, 206, 206, 1);
+}
+.page4 .group4 .group-copy6 .a12000 {
+  background: rgba(255, 255, 255, 0);
+  top: 14px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 20px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group4 .group-copy4 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 18px;
+  width: 104px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page4 .group4 .group-copy4 .your-budget {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group-copy51 {
+  background: rgba(255, 255, 255, 0);
+  top: 459px;
+  height: 46px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 67px;
+}
+.page4 .group-copy51 .rectangle25 {
+  background: rgba(255, 255, 255, 1);
+  top: 0;
+  height: 46px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(206, 206, 206, 1);
+}
+.page4 .group-copy51 .calendar {
+  background: rgba(255, 255, 255, 0);
+  top: 14px;
+  height: 17px;
+  width: 18px;
+  position: absolute;
+  margin: 0;
+  left: 231px;
+}
+.page4 .group-copy51 .calendar .shape {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 17px;
+  width: 18px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page4 .group-copy51 .calendar .shape1 {
+  background: rgba(255, 255, 255, 0);
+  top: 8px;
+  height: 2px;
+  width: 11px;
+  position: absolute;
+  margin: 0;
+  left: 4px;
+}
+.page4 .group-copy51 .calendar .shape2 {
+  background: rgba(255, 255, 255, 0);
+  top: 11px;
+  height: 2px;
+  width: 6px;
+  position: absolute;
+  margin: 0;
+  left: 4px;
+}
+.page4 .group-copy51 .october122018 {
+  background: rgba(255, 255, 255, 0);
+  top: 14px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 20px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group-copy61 {
+  background: rgba(255, 255, 255, 0);
+  top: 517px;
+  height: 46px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 67px;
+}
+.page4 .group-copy61 .rectangle26 {
+  background: rgba(255, 255, 255, 1);
+  top: 0;
+  height: 46px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(206, 206, 206, 1);
+}
+.page4 .group-copy61 .calendar1 {
+  background: rgba(255, 255, 255, 0);
+  top: 14px;
+  height: 17px;
+  width: 18px;
+  position: absolute;
+  margin: 0;
+  left: 229px;
+}
+.page4 .group-copy61 .calendar1 .shape3 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 17px;
+  width: 18px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page4 .group-copy61 .calendar1 .shape4 {
+  background: rgba(255, 255, 255, 0);
+  top: 8px;
+  height: 2px;
+  width: 11px;
+  position: absolute;
+  margin: 0;
+  left: 4px;
+}
+.page4 .group-copy61 .calendar1 .shape5 {
+  background: rgba(255, 255, 255, 0);
+  top: 11px;
+  height: 2px;
+  width: 6px;
+  position: absolute;
+  margin: 0;
+  left: 4px;
+}
+.page4 .group-copy61 .october132018 {
+  background: rgba(255, 255, 255, 0);
+  top: 14px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 20px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group-copy41 {
+  background: rgba(255, 255, 255, 0);
+  top: 359px;
+  height: 18px;
+  width: 83px;
+  position: absolute;
+  margin: 0;
+  left: 67px;
+}
+.page4 .group-copy41 .event-dates {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group5 {
+  background: rgba(255, 255, 255, 0);
+  top: 798px;
+  height: 53px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 65px;
+}
+.page4 .group5 .group8 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 53px;
+  width: 263px;
+  position: relative;
+  margin: 0;
+  left: 0;
+}
+.page4 .group5 .group8 .rectangle4 {
+  background: rgba(253, 94, 81, 1);
+  top: 0;
+  height: 53px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page4 .group5 .group8 .repit-search {
+  background: rgba(255, 255, 255, 0);
+  top: 18px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 83px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  line-height: 18px;
+}
+.page4 .group7 {
+  background: rgba(255, 255, 255, 0);
+  top: -22px;
+  height: 100px;
+  width: 1710px;
+  position: absolute;
+  margin: 0;
+  left: -154px;
+}
+.page4 .group7 .rectangle {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 100px;
+  width: 1710px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page4 .group7 .group25 {
+  background: rgba(255, 255, 255, 0);
+  top: 27px;
+  height: 50px;
+  width: 179px;
+  position: absolute;
+  margin: 0;
+  left: 201px;
+}
+.page4 .group7 .group25 .event-on-fly {
+  background: rgba(255, 255, 255, 0);
+  top: 17px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: -1px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 17px;
+  color: rgba(252, 90, 77, 1);
+  text-align: center;
+  line-height: 21px;
+}
+.page4 .group7 .group25 .bitmap {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  margin: 0;
+  left: 129px;
+}
+.page4 .group7 .rectangle7 {
+  background: rgba(86, 92, 96, 1);
+  top: 48px;
+  height: 2px;
+  width: 15px;
+  position: absolute;
+  margin: 0;
+  left: 1489px;
+}
+.page4 .group7 .rectangle7-copy {
+  background: rgba(86, 92, 96, 1);
+  top: 52px;
+  height: 2px;
+  width: 15px;
+  position: absolute;
+  margin: 0;
+  left: 1489px;
+}
+.page4 .group7 .rectangle7-copy2 {
+  background: rgba(86, 92, 96, 1);
+  top: 56px;
+  height: 2px;
+  width: 15px;
+  position: absolute;
+  margin: 0;
+  left: 1489px;
+}
+.page4 .group7 .screen-shot20180317-at095946-copy {
+  background: rgba(255, 255, 255, 0);
+  top: 39px;
+  height: 23px;
+  width: 29px;
+  position: absolute;
+  margin: 0;
+  left: 1016px;
+}
+.page4 .group14 {
+  background: rgba(255, 255, 255, 0);
+  top: 91px;
+  height: 64px;
+  width: 165px;
+  position: absolute;
+  margin: 0;
+  left: 389px;
+}
+.page4 .group14 .rectangle6 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 64px;
+  width: 165px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page4 .group14 .venue {
+  background: rgba(255, 255, 255, 0);
+  top: 23px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 61px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group14-copy {
+  background: rgba(255, 255, 255, 0);
+  top: 91px;
+  height: 64px;
+  width: 361px;
+  position: absolute;
+  margin: 0;
+  left: 551px;
+}
+.page4 .group14-copy .rectangle61 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 64px;
+  width: 175px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page4 .group14-copy .rectangle6-copy {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 64px;
+  width: 188px;
+  position: absolute;
+  margin: 0;
+  left: 173px;
+}
+.page4 .group14-copy .catering {
+  background: rgba(255, 255, 255, 0);
+  top: 23px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 52px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(147, 147, 147, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group14-copy .extraservices {
+  background: rgba(255, 255, 255, 0);
+  top: 23px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 225px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(147, 147, 147, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group21 {
+  background: rgba(255, 255, 255, 0);
+  top: 156px;
+  height: 1559px;
+  width: 972px;
+  position: absolute;
+  margin: 0;
+  left: 389px;
+}
+.page4 .group21 .rectangle62 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 1559px;
+  width: 972px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page4 .group21 .group16 {
+  background: rgba(255, 255, 255, 0);
+  top: 24px;
+  height: 56px;
+  width: 205px;
+  position: absolute;
+  margin: 0;
+  left: 38px;
+}
+.page4 .group21 .group16 .hotel-rius4 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: auto;
+  width: 115px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 19px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 23px;
+  text-decoration: underline;
+}
+.page4 .group21 .group16 .lviv02-miles-to-c {
+  background: rgba(255, 255, 255, 0);
+  top: 37px;
+  height: auto;
+  width: 182px;
+  position: absolute;
+  margin: 0;
+  left: 23px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: left;
+  line-height: 18px;
+  text-decoration: underline;
+}
+.page4 .group21 .group16 .placeholderdd {
+  background: rgba(255, 255, 255, 0);
+  top: 39px;
+  height: 16px;
+  width: 12px;
+  position: absolute;
+  margin: 0;
+  left: 1px;
+}
+.page4 .group21 .group16 .placeholderdd .shape6 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 16px;
+  width: 12px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page4 .group21 .group16 .placeholderdd .shape7 {
+  background: rgba(255, 255, 255, 0);
+  top: 2px;
+  height: 8px;
+  width: 8px;
+  position: absolute;
+  margin: 0;
+  left: 2px;
+}
+.page4 .group21-copy {
+  background: rgba(255, 255, 255, 0);
+  top: 160px;
+  height: 1551px;
+  width: 964px;
+  position: absolute;
+  margin: 0;
+  left: 393px;
+}
+.page4 .group21-copy .rectangle63 {
+  background: rgba(255, 255, 255, 1);
+  top: 0;
+  height: 1551px;
+  width: 964px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page4 .group21-copy .group161 {
+  background: rgba(255, 255, 255, 0);
+  top: 20px;
+  height: 56px;
+  width: 205px;
+  position: absolute;
+  margin: 0;
+  left: 34px;
+}
+.page4 .group21-copy .group161 .hotel-rius41 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: auto;
+  width: 115px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 19px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 23px;
+  text-decoration: underline;
+}
+.page4 .group21-copy .group161 .lviv02-miles-to-c1 {
+  background: rgba(255, 255, 255, 0);
+  top: 37px;
+  height: auto;
+  width: 182px;
+  position: absolute;
+  margin: 0;
+  left: 23px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: left;
+  line-height: 18px;
+  text-decoration: underline;
+}
+.page4 .group21-copy .group161 .placeholderdd1 {
+  background: rgba(255, 255, 255, 0);
+  top: 39px;
+  height: 16px;
+  width: 12px;
+  position: absolute;
+  margin: 0;
+  left: 1px;
+}
+.page4 .group21-copy .group161 .placeholderdd1 .shape8 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 16px;
+  width: 12px;
+  position: relative;
+  margin: 0;
+  left: 0;
+}
+.page4 .group21-copy .group161 .placeholderdd1 .shape8 .shape9 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 16px;
+  width: 12px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page4 .group21-copy .group161 .placeholderdd1 .shape8 .shape10 {
+  background: rgba(255, 255, 255, 0);
+  top: 2px;
+  height: 8px;
+  width: 8px;
+  position: absolute;
+  margin: 0;
+  left: 2px;
+}
+.page4 .group81 {
+  background: rgba(255, 255, 255, 0);
+  top: 97px;
+  height: 48px;
+  width: 75px;
+  position: absolute;
+  margin: 0;
+  left: 1283px;
+}
+.page4 .group81 .a8900 {
+  background: rgba(255, 255, 255, 0);
+  top: 19px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  color: rgba(253, 94, 81, 1);
+  text-align: left;
+  line-height: 29px;
+}
+.page4 .group81 .total-price {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 4px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .whether-you-are-a-pe {
+  background: rgba(255, 255, 255, 0);
+  top: 692px;
+  height: auto;
+  width: 609px;
+  position: absolute;
+  margin: 0;
+  left: 429px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  color: rgba(97, 105, 109, 1);
+  text-align: left;
+  line-height: 32px;
+}
+.page4 .group19 {
+  background: rgba(255, 255, 255, 0);
+  top: 692px;
+  height: 209px;
+  width: 238px;
+  position: absolute;
+  margin: 0;
+  left: 1079px;
+}
+.page4 .group19 .rectangle-copy1 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 209px;
+  width: 238px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page4 .group19 .rectangle-copy1 .rectangle-copy2 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 209px;
+  width: 238px;
+  position: relative;
+  margin: 0;
+  left: 0;
+}
+.page4 .group19 .rectangle-copy1 .rectangle-copy2 .rectangle-copy3 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 209px;
+  width: 238px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  opacity: 0.2;
+}
+.page4
+  .group19
+  .rectangle-copy1
+  .rectangle-copy2
+  .screen-shot20180317-at133157 {
+  background: rgba(255, 255, 255, 0);
+  top: 99px;
+  height: 29px;
+  width: 31px;
+  position: absolute;
+  margin: 0;
+  left: 34px;
+  opacity: 0.7;
+}
+.page4
+  .group19
+  .rectangle-copy1
+  .rectangle-copy2
+  .screen-shot20180317-at133121 {
+  background: rgba(255, 255, 255, 0);
+  top: 147px;
+  height: 22px;
+  width: 26px;
+  position: absolute;
+  margin: 0;
+  left: 38px;
+  opacity: 0.7;
+}
+.page4
+  .group19
+  .rectangle-copy1
+  .rectangle-copy2
+  .screen-shot20180317-at133116 {
+  background: rgba(255, 255, 255, 0);
+  top: 20px;
+  height: 20px;
+  width: 22px;
+  position: absolute;
+  margin: 0;
+  left: 38px;
+}
+.page4
+  .group19
+  .rectangle-copy1
+  .rectangle-copy2
+  .screen-shot20180317-at133109 {
+  background: rgba(255, 255, 255, 0);
+  top: 60px;
+  height: 23px;
+  width: 21px;
+  position: absolute;
+  margin: 0;
+  left: 39px;
+}
+.page4 .group19 .group17 {
+  background: rgba(255, 255, 255, 0);
+  top: 20px;
+  height: 149px;
+  width: 141px;
+  position: absolute;
+  margin: 0;
+  left: 34px;
+}
+.page4 .group19 .group17 .a34-parking-place {
+  background: rgba(255, 255, 255, 0);
+  top: 44px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 33px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group19 .group17 .free-wi-fi {
+  background: rgba(255, 255, 255, 0);
+  top: 3px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 33px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group19 .group17 .air-conditioning {
+  background: rgba(255, 255, 255, 0);
+  top: 126px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 32px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group19 .group17 .own-catering {
+  background: rgba(255, 255, 255, 0);
+  top: 88px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 32px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .bitmap1 {
+  background: rgba(255, 255, 255, 0);
+  top: 268px;
+  height: 383px;
+  width: 898px;
+  position: absolute;
+  margin: 0;
+  left: 429px;
+}
+.page4 .exelent {
+  background: rgba(255, 255, 255, 0);
+  top: 192px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 1207px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 1);
+  text-align: right;
+  line-height: 21px;
+}
+.page4 .a23-review {
+  background: rgba(255, 255, 255, 0);
+  top: 216px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 1200px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: right;
+  line-height: 18px;
+  text-decoration: underline;
+}
+.page4 .rectangle41 {
+  background: rgba(255, 255, 255, 0);
+  top: 190px;
+  height: 45px;
+  width: 47px;
+  position: absolute;
+  margin: 0;
+  left: 1280px;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(150, 150, 150, 1);
+}
+.page4 .a94 {
+  background: rgba(255, 255, 255, 0);
+  top: 201px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 1288px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 19px;
+  color: rgba(0, 0, 0, 1);
+  text-align: right;
+  line-height: 23px;
+}
+.page4 .group6 {
+  background: rgba(255, 255, 255, 0);
+  top: 989px;
+  height: 121px;
+  width: 964px;
+  position: absolute;
+  margin: 0;
+  left: 393px;
+}
+.page4 .group6 .rectangle-copy4 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 121px;
+  width: 964px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  opacity: 0.2;
+}
+.page4 .group6 .group82 {
+  background: rgba(255, 255, 255, 0);
+  top: 39px;
+  height: 53px;
+  width: 361px;
+  position: absolute;
+  margin: 0;
+  left: 563px;
+}
+.page4 .group6 .group82 .rectangle42 {
+  background: rgba(253, 94, 81, 1);
+  top: 0;
+  height: 53px;
+  width: 361px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page4 .group6 .group82 .repit-search1 {
+  background: rgba(255, 255, 255, 0);
+  top: 18px;
+  height: auto;
+  width: 254px;
+  position: absolute;
+  margin: 0;
+  left: 56px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  line-height: 18px;
+}
+.page4 .group6 .a89001 {
+  background: rgba(255, 255, 255, 0);
+  top: 60px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 43px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  color: rgba(253, 94, 81, 1);
+  text-align: left;
+  line-height: 29px;
+}
+.page4 .group6 .venue-price {
+  background: rgba(255, 255, 255, 0);
+  top: 37px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 43px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group162 {
+  background: rgba(255, 255, 255, 0);
+  top: 1183px;
+  height: 174px;
+  width: 900px;
+  position: absolute;
+  margin: 0;
+  left: 416px;
+}
+.page4 .group162 .group191 {
+  background: rgba(255, 255, 255, 0);
+  top: 83px;
+  height: 72px;
+  width: 683px;
+  position: absolute;
+  margin: 0;
+  left: 237px;
+}
+.page4 .group162 .group191 .rectangle-copy5 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 72px;
+  width: 683px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  opacity: 0.2;
+}
+.page4 .group162 .group191 .a7565 {
+  background: rgba(255, 255, 255, 0);
+  top: 25px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 591px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 19px;
+  color: rgba(253, 94, 81, 1);
+  text-align: right;
+  line-height: 23px;
+}
+.page4 .group162 .group191 .group171 {
+  background: rgba(255, 255, 255, 0);
+  top: 7px;
+  height: 61px;
+  width: 326px;
+  position: absolute;
+  margin: 0;
+  left: 14px;
+}
+.page4 .group162 .group191 .group171 .screen-shot20180317-at1331571 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 29px;
+  width: 31px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  opacity: 0.7;
+}
+.page4 .group162 .group191 .group171 .screen-shot20180317-at1331211 {
+  background: rgba(255, 255, 255, 0);
+  top: 39px;
+  height: 22px;
+  width: 26px;
+  position: absolute;
+  margin: 0;
+  left: 4px;
+  opacity: 0.7;
+}
+.page4 .group162 .group191 .group171 .screen-shot20180317-at1331161 {
+  background: rgba(255, 255, 255, 0);
+  top: 6px;
+  height: 20px;
+  width: 22px;
+  position: absolute;
+  margin: 0;
+  left: 189px;
+}
+.page4 .group162 .group191 .group171 .screen-shot20180317-at1331091 {
+  background: rgba(255, 255, 255, 0);
+  top: 37px;
+  height: 23px;
+  width: 21px;
+  position: absolute;
+  margin: 0;
+  left: 190px;
+}
+.page4 .group162 .group191 .group171 .a34-parking-place1 {
+  background: rgba(255, 255, 255, 0);
+  top: 41px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 218px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group162 .group191 .group171 .free-wi-fi1 {
+  background: rgba(255, 255, 255, 0);
+  top: 9px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 218px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group162 .group191 .group171 .air-conditioning1 {
+  background: rgba(255, 255, 255, 0);
+  top: 38px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 32px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group162 .group191 .group171 .own-catering1 {
+  background: rgba(255, 255, 255, 0);
+  top: 9px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 32px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group162 .bitmap2 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 174px;
+  width: 234px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  overflow: hidden;
+}
+.page4 .group162 .landmark-vineyards {
+  background: rgba(255, 255, 255, 0);
+  top: 18px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 237px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 19px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 23px;
+  text-decoration: underline;
+}
+.page4 .group162 .exelent1 {
+  background: rgba(255, 255, 255, 0);
+  top: 20px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 770px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 1);
+  text-align: right;
+  line-height: 21px;
+}
+.page4 .group162 .a23-review1 {
+  background: rgba(255, 255, 255, 0);
+  top: 40px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 763px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: right;
+  line-height: 18px;
+  text-decoration: underline;
+}
+.page4 .group162 .rectangle43 {
+  background: rgba(255, 255, 255, 0);
+  top: 25px;
+  height: 35px;
+  width: 47px;
+  position: absolute;
+  margin: 0;
+  left: 843px;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(150, 150, 150, 1);
+}
+.page4 .group162 .a941 {
+  background: rgba(255, 255, 255, 0);
+  top: 31px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 851px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 19px;
+  color: rgba(0, 0, 0, 1);
+  text-align: right;
+  line-height: 23px;
+}
+.page4 .group162 .group12 {
+  background: rgba(255, 255, 255, 0);
+  top: 53px;
+  height: 18px;
+  width: 204px;
+  position: absolute;
+  margin: 0;
+  left: 238px;
+}
+.page4 .group162 .group12 .lviv02-miles-to-c2 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 22px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: left;
+  line-height: 18px;
+  text-decoration: underline;
+}
+.page4 .group162 .group12 .placeholderdd2 {
+  background: rgba(255, 255, 255, 0);
+  top: 1px;
+  height: 16px;
+  width: 12px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page4 .group162 .group12 .placeholderdd2 .shape11 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 16px;
+  width: 12px;
+  position: relative;
+  margin: 0;
+  left: 0;
+}
+.page4 .group162 .group12 .placeholderdd2 .shape11 .shape12 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 16px;
+  width: 12px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page4 .group162 .group12 .placeholderdd2 .shape11 .shape13 {
+  background: rgba(255, 255, 255, 0);
+  top: 2px;
+  height: 8px;
+  width: 8px;
+  position: absolute;
+  margin: 0;
+  left: 2px;
+}
+.page4 .group16-copy {
+  background: rgba(255, 255, 255, 0);
+  top: 1462px;
+  height: 213px;
+  width: 901px;
+  position: absolute;
+  margin: 0;
+  left: 416px;
+}
+.page4 .group16-copy .group192 {
+  background: rgba(255, 255, 255, 0);
+  top: 87px;
+  height: 72px;
+  width: 683px;
+  position: absolute;
+  margin: 0;
+  left: 237px;
+}
+.page4 .group16-copy .group192 .rectangle-copy6 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 72px;
+  width: 683px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  opacity: 0.2;
+}
+.page4 .group16-copy .group192 .a75651 {
+  background: rgba(255, 255, 255, 0);
+  top: 21px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 591px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 19px;
+  color: rgba(253, 94, 81, 1);
+  text-align: right;
+  line-height: 23px;
+}
+.page4 .group16-copy .group192 .group172 {
+  background: rgba(255, 255, 255, 0);
+  top: 3px;
+  height: 61px;
+  width: 326px;
+  position: absolute;
+  margin: 0;
+  left: 14px;
+}
+.page4 .group16-copy .group192 .group172 .screen-shot20180317-at1331572 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 29px;
+  width: 31px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  opacity: 0.7;
+}
+.page4 .group16-copy .group192 .group172 .screen-shot20180317-at1331212 {
+  background: rgba(255, 255, 255, 0);
+  top: 39px;
+  height: 22px;
+  width: 26px;
+  position: absolute;
+  margin: 0;
+  left: 4px;
+  opacity: 0.7;
+}
+.page4 .group16-copy .group192 .group172 .screen-shot20180317-at1331162 {
+  background: rgba(255, 255, 255, 0);
+  top: 6px;
+  height: 20px;
+  width: 22px;
+  position: absolute;
+  margin: 0;
+  left: 189px;
+}
+.page4 .group16-copy .group192 .group172 .screen-shot20180317-at1331092 {
+  background: rgba(255, 255, 255, 0);
+  top: 37px;
+  height: 23px;
+  width: 21px;
+  position: absolute;
+  margin: 0;
+  left: 190px;
+}
+.page4 .group16-copy .group192 .group172 .a34-parking-place2 {
+  background: rgba(255, 255, 255, 0);
+  top: 41px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 218px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group16-copy .group192 .group172 .free-wi-fi2 {
+  background: rgba(255, 255, 255, 0);
+  top: 9px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 218px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group16-copy .group192 .group172 .air-conditioning2 {
+  background: rgba(255, 255, 255, 0);
+  top: 38px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 32px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group16-copy .group192 .group172 .own-catering2 {
+  background: rgba(255, 255, 255, 0);
+  top: 9px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 32px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page4 .group16-copy .group83 {
+  background: rgba(255, 255, 255, 0);
+  top: 178px;
+  height: 53px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 658px;
+}
+.page4 .group16-copy .group83 .rectangle44 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 53px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(253, 94, 81, 1);
+}
+.page4 .group16-copy .group83 .quick-booking {
+  background: rgba(255, 255, 255, 0);
+  top: 18px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 87px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(253, 94, 81, 1);
+  text-align: center;
+  line-height: 18px;
+}
+.page4 .group16-copy .bitmap3 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 174px;
+  width: 234px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  overflow: hidden;
+}
+.page4 .group16-copy .mr-tipples-recordi {
+  background: rgba(255, 255, 255, 0);
+  top: 18px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 237px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 19px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 23px;
+  text-decoration: underline;
+}
+.page4 .group16-copy .exelent2 {
+  background: rgba(255, 255, 255, 0);
+  top: 20px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 770px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 1);
+  text-align: right;
+  line-height: 21px;
+}
+.page4 .group16-copy .a23-review2 {
+  background: rgba(255, 255, 255, 0);
+  top: 40px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 763px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: right;
+  line-height: 18px;
+  text-decoration: underline;
+}
+.page4 .group16-copy .rectangle45 {
+  background: rgba(255, 255, 255, 0);
+  top: 25px;
+  height: 35px;
+  width: 47px;
+  position: absolute;
+  margin: 0;
+  left: 843px;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(150, 150, 150, 1);
+}
+.page4 .group16-copy .a942 {
+  background: rgba(255, 255, 255, 0);
+  top: 31px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 851px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 19px;
+  color: rgba(0, 0, 0, 1);
+  text-align: right;
+  line-height: 23px;
+}
+.page4 .group16-copy .lviv02-miles-to-c3 {
+  background: rgba(255, 255, 255, 0);
+  top: 52px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 260px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: left;
+  line-height: 18px;
+  text-decoration: underline;
+}
+.page4 .group16-copy .placeholderdd3 {
+  background: rgba(255, 255, 255, 0);
+  top: 53px;
+  height: 16px;
+  width: 12px;
+  position: absolute;
+  margin: 0;
+  left: 238px;
+}
+.page4 .group16-copy .placeholderdd3 .shape14 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 16px;
+  width: 12px;
+  position: relative;
+  margin: 0;
+  left: 0;
+}
+.page4 .group16-copy .placeholderdd3 .shape14 .shape15 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 16px;
+  width: 12px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page4 .group16-copy .placeholderdd3 .shape14 .shape16 {
+  background: rgba(255, 255, 255, 0);
+  top: 2px;
+  height: 8px;
+  width: 8px;
+  position: absolute;
+  margin: 0;
+  left: 2px;
+}
+.page4 .we-found-properties {
+  background: rgba(255, 255, 255, 0);
+  top: 1144px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 436px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 19px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 23px;
+}
+.page4 .line-copy4 {
+  background: rgba(255, 255, 255, 0);
+  top: 1428px;
+  height: 3px;
+  width: 904px;
+  position: absolute;
+  margin: 0;
+  left: 436px;
+  opacity: 0.3;
+}
+.page4 .group84 {
+  background: rgba(255, 255, 255, 0);
+  top: 1358px;
+  height: 53px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 1074px;
+}
+.page4 .group84 .rectangle46 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 53px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(253, 94, 81, 1);
+}
+.page4 .group84 .quick-booking1 {
+  background: rgba(255, 255, 255, 0);
+  top: 18px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 87px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(253, 94, 81, 1);
+  text-align: center;
+  line-height: 18px;
+}
+.page4 .english-united-stat {
+  background: rgba(255, 255, 255, 0);
+  top: 20px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 899px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 17px;
+}
+.page4 .bitmap4 {
+  background: rgba(255, 255, 255, 0);
+  top: 101px;
+  height: 21px;
+  width: 21px;
+  position: absolute;
+  margin: 0;
+  left: 67px;
+}
+.page4 .bitmap5 {
+  background: rgba(255, 255, 255, 0);
+  top: 101px;
+  height: 21px;
+  width: 21px;
+  position: absolute;
+  margin: 0;
+  left: 224px;
+}
+.page4 .bitmap-copy {
+  background: rgba(255, 255, 255, 0);
+  top: 131px;
+  height: 21px;
+  width: 21px;
+  position: absolute;
+  margin: 0;
+  left: 67px;
+}
+.page4 .bitmap-copy1 {
+  background: rgba(255, 255, 255, 0);
+  top: 578px;
+  height: 21px;
+  width: 21px;
+  position: absolute;
+  margin: 0;
+  left: 66px;
+}
+.page4 .bitmap6 {
+  background: rgba(255, 255, 255, 0);
+  top: 394px;
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  margin: 0;
+  left: 66px;
+}
+.page4 .bitmap7 {
+  background: rgba(255, 255, 255, 0);
+  top: 394px;
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  margin: 0;
+  left: 198px;
+}
+.page4 .bitmap-copy2 {
+  background: rgba(255, 255, 255, 0);
+  top: 421px;
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  margin: 0;
+  left: 66px;
+}
+.anima-animate-appear {
+  opacity: 0;
+  display: block;
+  -webkit-animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation: anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity: 1;
+  display: block;
+  -webkit-animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation: anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay: 0;
+  animation-delay: 0;
+}
+@-webkit-keyframes anima-reveal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes anima-reveal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes anima-reveal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes anima-reveal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

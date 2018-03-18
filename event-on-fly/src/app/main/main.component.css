@@ -1,0 +1,22 @@
+.start-filter {
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+}
+
+.left-side {
+    flex: 4;
+}
+
+.main-side {
+    flex: 7;
+}
+
+.spinner {
+    position: fixed;
+    margin-top: 100px;
+    left: 65%;
+}
