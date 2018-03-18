@@ -3,6 +3,7 @@ import { Bundle } from "../search-response";
 import { MatDialog } from "@angular/material/dialog";
 import { BookedDialogComponent } from "../booked-dialog/booked-dialog.component";
 import { Router } from "@angular/router";
+import { LoadingService } from "../loading.service";
 
 @Component({
   selector: "app-bundle-item",
@@ -10,7 +11,7 @@ import { Router } from "@angular/router";
   styleUrls: ["./bundle-item.component.css"]
 })
 export class BundleItemComponent implements OnInit {
-  constructor(public dialog: MatDialog, private router: Router) {}
+  constructor(public dialog: MatDialog, private router: Router, private loadingService: LoadingService) {}
 
   private _bundle: Bundle;
   @Input()
@@ -30,6 +31,7 @@ export class BundleItemComponent implements OnInit {
   }
 
   public viewDetails() {
+    this.loadingService.startLoading();
     this.router.navigate(["view-details"], { skipLocationChange: false });
   }
 }

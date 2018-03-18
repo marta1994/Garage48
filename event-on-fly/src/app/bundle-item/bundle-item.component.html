@@ -25,7 +25,13 @@
     </section>
     <section>
       <mat-checkbox [(ngModel)]="bundle.catering.useIt">Catering</mat-checkbox>
+
       <div class="info-container">
+          <img class="stub-image" [src]="bundle.catering.imageStub"/>
+          <span class="price price-abs">{{'$' + bundle.venue.catering.amount}}</span>
+        </div>
+
+      <!-- <div class="info-container">
         <img [src]="bundle.catering.image" />
         <div class="internal-info-container">
           <span class="item-name">{{bundle.catering.name}}</span>
@@ -33,7 +39,9 @@
           </div>
           <span class="price price-abs">{{'$' + bundle.catering.price}}</span>
         </div>
-      </div>
+      </div> -->
+
+
     </section>
   </mat-card-content>
   <mat-card-actions>

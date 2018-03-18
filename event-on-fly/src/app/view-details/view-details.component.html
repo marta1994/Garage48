@@ -1,4 +1,7 @@
-<div class="page4">
+<div *ngIf="loadingService.isLoading" class="spinner">
+    <mat-spinner></mat-spinner>
+</div>
+<div class="page4" *ngIf="!loadingService.isLoading">
   <div style="width: 1400px; height: 100%; position:relative; margin:auto;">
     <img class="rectangle-copy" src="assets/images/page4_files/page 2rectangle copy.png" anima-src="https://anima-uploads.s3.amazonaws.com/5aad4ecbec36ed000de2eb65/5aad4f1bec36ed000de2eb67/5aad5419167115000cfa619c/img/page 2rectangle copy.png">
     <div class="group2">

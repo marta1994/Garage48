@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700,900");
+.spinner {
+    position: fixed;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: 150px;
+}
+
 .page4 {
   width: 100%;
   min-width: 1400px;
