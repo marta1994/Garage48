@@ -1,5 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Bundle } from '../search-response';
+import { MatDialog } from '@angular/material/dialog';
+import { BookedDialogComponent } from '../booked-dialog/booked-dialog.component';
 
 @Component({
   selector: 'app-bundle-item',
@@ -8,7 +10,7 @@ import { Bundle } from '../search-response';
 })
 export class BundleItemComponent implements OnInit {
 
-  constructor() { }
+  constructor(public dialog: MatDialog) { }
 
   private _bundle: Bundle;
   @Input()
@@ -20,6 +22,12 @@ export class BundleItemComponent implements OnInit {
   }
 
   ngOnInit() {
+  }
+
+  public openBookDialog() {
+    let dialogRef = this.dialog.open(BookedDialogComponent, {
+      width: '250px'
+    });
   }
 
 }

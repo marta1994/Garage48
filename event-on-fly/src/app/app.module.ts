@@ -19,6 +19,7 @@ import {MatNativeDateModule} from '@angular/material/core';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatDialogModule} from '@angular/material/dialog';
 
 import {SearchServiceService} from './search-service.service';
 import { AppComponent } from './app.component';
@@ -29,6 +30,7 @@ import { SearchActionComponent } from './search-action/search-action.component';
 import { BundleItemComponent } from './bundle-item/bundle-item.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { BookedDialogComponent } from './booked-dialog/booked-dialog.component';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyDFey1JYAWe874FyVKIZ5b-IzqZjm9zBSU",
@@ -45,7 +47,8 @@ export const firebaseConfig = {
     VenueFilterComponent,
     SearchActionComponent,
     BundleItemComponent,
-    TopBarComponent
+    TopBarComponent,
+    BookedDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -66,7 +69,8 @@ export const firebaseConfig = {
     MatDividerModule,
     MatGridListModule,
     MatToolbarModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatDialogModule
   ],
   exports: [
     MatSelectModule,
@@ -80,10 +84,14 @@ export const firebaseConfig = {
     MatDividerModule,
     MatGridListModule,
     MatToolbarModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatDialogModule
   ],
   providers: [
     SearchServiceService
+  ],
+  entryComponents: [
+    BookedDialogComponent
   ],
   bootstrap: [AppComponent]
 })
