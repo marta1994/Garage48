@@ -14,3 +14,9 @@
 .main-side {
     flex: 7;
 }
+
+.spinner {
+    position: fixed;
+    margin-top: 100px;
+    left: 65%;
+}

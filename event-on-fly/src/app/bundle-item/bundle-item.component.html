@@ -10,7 +10,8 @@
     <section>
       <mat-checkbox [(ngModel)]="bundle.venue.useIt">Venue</mat-checkbox>
       <div class="info-container">
-        <img class="info-image" [src]="bundle.venue.images[0]" />
+        <img class="stub-image" [src]="bundle.venue.imageStub"/>
+        <!-- <img class="info-image" [src]="bundle.venue.images[0]" />
         <div class="internal-info-container">
           <span class="item-name">{{bundle.venue.name}}</span>
           <span class="item-address">{{bundle.venue.location.address}}</span>
@@ -18,7 +19,8 @@
 
           </div>
           <span class="price price-abs">{{'$' + bundle.venue.price.amount}}</span>
-        </div>
+        </div> -->
+        <span class="price price-abs">{{'$' + bundle.venue.price.amount}}</span>
       </div>
     </section>
     <section>

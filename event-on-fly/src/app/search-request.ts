@@ -49,8 +49,9 @@ export class SimpleFilter {
 
     constructor() {
         this.dateRange = new DateRange();
-        this.peopleNumber = 2000;
+        this.peopleNumber = 100;
         this.location = "Lviv";
+        this.eventType = "Tech";
     }
 
     location: string;
@@ -72,13 +73,13 @@ export class DateRange {
 }
 
 export class VenueFilter implements IService {
-    squareFrom: number;
+    squareFrom: number = 300;
     squareTo: number;
-    providedWifi: Boolean;
+    providedWifi: Boolean = true;
     wardrobe: Boolean;
-    parking: Boolean;
+    parking: Boolean = true;
     securityGuard: Boolean;
-    cleaningServiceIncluded: Boolean;
+    cleaningServiceIncluded: Boolean = true;
     floors: number;
     peopleNumber: number;
     toiletsAmount: number;

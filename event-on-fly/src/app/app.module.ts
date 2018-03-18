@@ -20,8 +20,10 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatDialogModule} from '@angular/material/dialog';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 
 import {SearchServiceService} from './search-service.service';
+import {LoadingService} from './loading.service';
 import { AppComponent } from './app.component';
 import { FilterComponent } from './filter/filter.component';
 import { BasicFilterComponent } from './basic-filter/basic-filter.component';
@@ -70,7 +72,8 @@ export const firebaseConfig = {
     MatGridListModule,
     MatToolbarModule,
     MatFormFieldModule,
-    MatDialogModule
+    MatDialogModule,
+    MatProgressSpinnerModule
   ],
   exports: [
     MatSelectModule,
@@ -85,10 +88,12 @@ export const firebaseConfig = {
     MatGridListModule,
     MatToolbarModule,
     MatFormFieldModule,
-    MatDialogModule
+    MatDialogModule,
+    MatProgressSpinnerModule
   ],
   providers: [
-    SearchServiceService
+    SearchServiceService,
+    LoadingService
   ],
   entryComponents: [
     BookedDialogComponent

@@ -7,6 +7,10 @@ img {
     height: 130px;
 }
 
+.stub-image {
+    width: 800px;
+}
+
 .divider {
     width: 40%;
     border-top: 1px solid #cccccc;
@@ -43,6 +47,7 @@ mat-card-content {
 .info-container {
     margin-left: 25px;
     display: flex;
+    position: relative;
 }
 
 .internal-info-container {
@@ -71,8 +76,9 @@ mat-card-content {
     position: absolute;
     right: 0;
     margin-right: 35px;
-    top: 50%;
+    top: 90px;
     margin-top: -15px;
+    font-size: 20px;
 }
 
 mat-card-actions {

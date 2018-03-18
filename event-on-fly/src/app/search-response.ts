@@ -17,6 +17,7 @@ export class Bundle {
         name: string;
         price: number;
         image: string;
+        imageStub: string;
         providedWifi: boolean;
         useIt: boolean = true;
     }
@@ -42,6 +43,7 @@ export class Bundle {
         toiletsAmount: any;
         wardrobe: boolean;
         website: string;
+        imageStub: string;
         useIt: boolean = true;
     }
 
