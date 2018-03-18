@@ -1,9 +1,5 @@
 <app-top-bar></app-top-bar>
-<div *ngIf="searchService.currentPage === 0" class="start-filter">
-    <app-basic-filter [basicFilter]="searchService.searchRequest.simpleFilter" [additionalServices]="searchService.searchRequest.additionalServices"
-        [showSearch]="true"></app-basic-filter>
-</div>
-<div *ngIf="searchService.currentPage === 1">
+<div>
     <div class="content">
         <div class="left-side">
             <app-filter></app-filter>

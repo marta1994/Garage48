@@ -15,8 +15,6 @@ export class SearchServiceService {
 
   public bundles: Bundle[];
 
-  public currentPage: CurrentPage = CurrentPage.StartFiler;
-
   venues: Venue[];
   caterings: Catering[];
 

@@ -39,6 +39,7 @@ import { MatFormFieldModule } from "@angular/material/form-field";
 import { BookedDialogComponent } from "./booked-dialog/booked-dialog.component";
 import { ViewDetailsComponent } from "./view-details/view-details.component";
 import { MainComponent } from "./main/main.component";
+import { StartComponent } from './start/start.component';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyDFey1JYAWe874FyVKIZ5b-IzqZjm9zBSU",
@@ -49,9 +50,10 @@ export const firebaseConfig = {
 
 const appRoutes: Routes = [
   { path: "view-details", component: ViewDetailsComponent },
+  { path: "search", component: MainComponent },
   {
     path: "",
-    component: MainComponent,
+    component: StartComponent,
     pathMatch: "full"
   }
 ];
@@ -67,7 +69,8 @@ const appRoutes: Routes = [
     TopBarComponent,
     BookedDialogComponent,
     ViewDetailsComponent,
-    MainComponent
+    MainComponent,
+    StartComponent
   ],
   imports: [
     BrowserModule,
