@@ -50,6 +50,7 @@ export class SearchServiceService {
 
     for (var index = 0; index < matchedVenue.length; index++) {
       matchedVenue[index].useIt = true;
+      matchedCatering[index].useIt = true;
       bundleData.push(this.newBundle(matchedVenue, matchedCatering, index));
     }
 
@@ -167,14 +168,6 @@ export class SearchServiceService {
   }
 
   private filteredCatering() {
-    // var cateringData = [];
-    // var catering = new Catering();
-    // catering.name = 'Delicateka';
-    // catering.image = 'https://static1.squarespace.com/static/5319e7a7e4b0ee73efefb8ed/t/538fd617e4b06d663cf6e8b1/1434558163094/Catering+copy.jpg?format=1500w';
-    // catering.price = 300;
-    // catering.providedWifi = true;
-
-    // cateringData.push(catering);
     return this.caterings;
   }
 }
