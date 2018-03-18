@@ -1,6 +1,1205 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:700,400,900");
 .spinner {
     position: fixed;
     left: 50%;
     margin-left: -50px;
     margin-top: 150px;
+  }
+  
+.page1 {
+  width: 100%;
+  min-width: 1400px;
+  height: 100vh;
+  min-height: 1137px;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  background: rgba(255, 255, 255, 1);
+}
+a {
+  text-decoration: none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.page1 .group5-copy {
+  background: rgba(255, 255, 255, 0);
+  top: -13px;
+  height: 433px;
+  width: 1472px;
+  position: absolute;
+  margin: 0;
+  left: -44px;
+}
+.page1 .group5-copy .bitmap {
+  background: rgba(255, 255, 255, 0);
+  top: 2px;
+  height: 420px;
+  width: 1400px;
+  position: absolute;
+  margin: 0;
+  left: 44px;
+}
+.page1 .group5-copy .group2 {
+  background: rgba(255, 255, 255, 0);
+  top: 116px;
+  height: 18px;
+  width: 80px;
+  position: absolute;
+  margin: 0;
+  left: 146px;
+}
+.page1 .group5-copy .group2 .group-copy8 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 18px;
+  width: 80px;
+  position: relative;
+  margin: 0;
+  left: 0;
+}
+.page1 .group5-copy .group2 .group-copy8 .need-venue {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page1 .group5-copy .group2-copy {
+  background: rgba(255, 255, 255, 0);
+  top: 116px;
+  height: 18px;
+  width: 95px;
+  position: absolute;
+  margin: 0;
+  left: 293px;
+}
+.page1 .group5-copy .group2-copy .group-copy81 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 18px;
+  width: 95px;
+  position: relative;
+  margin: 0;
+  left: 0;
+}
+.page1 .group5-copy .group2-copy .group-copy81 .need-catering {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page1 .group5-copy .group2-copy3 {
+  background: rgba(255, 255, 255, 0);
+  top: 236px;
+  height: 76px;
+  width: 707px;
+  position: absolute;
+  margin: 0;
+  left: 112px;
+}
+.page1 .group5-copy .group2-copy3 .group10 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 76px;
+  width: 707px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page1 .group5-copy .group2-copy3 .group10 .specific-date {
+  background: rgba(255, 255, 255, 0);
+  top: 1px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 124px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page1 .group5-copy .group2-copy3 .group10 .date-range {
+  background: rgba(255, 255, 255, 0);
+  top: 1px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 256px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page1 .group5-copy .group2-copy3 .group10 .anytime {
+  background: rgba(255, 255, 255, 0);
+  top: 1px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 385px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page1 .group5-copy .group2-copy3 .group10 .group2-copy1 {
+  background: rgba(255, 255, 255, 0);
+  top: 43px;
+  height: 24px;
+  width: 127px;
+  position: absolute;
+  margin: 0;
+  left: 580px;
+}
+.page1 .group5-copy .group2-copy3 .group10 .group2-copy1 .group-copy82 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 24px;
+  width: 127px;
+  position: relative;
+  margin: 0;
+  left: 0;
+}
+.page1
+  .group5-copy
+  .group2-copy3
+  .group10
+  .group2-copy1
+  .group-copy82
+  .all-day-event {
+  background: rgba(255, 255, 255, 0);
+  top: 5px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 40px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page1
+  .group5-copy
+  .group2-copy3
+  .group10
+  .group2-copy1
+  .group-copy82
+  .bitmap-copy {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 24px;
+  width: 25px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page1 .group5-copy .group2-copy3 .group10 .group4-copy {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 76px;
+  width: 554px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page1 .group5-copy .group2-copy3 .group10 .group4-copy .group-copy5 {
+  background: rgba(255, 255, 255, 0);
+  top: 30px;
+  height: 46px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page1
+  .group5-copy
+  .group2-copy3
+  .group10
+  .group4-copy
+  .group-copy5
+  .rectangle2 {
+  background: rgba(255, 255, 255, 1);
+  top: 0;
+  height: 46px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(206, 206, 206, 1);
+}
+.page1 .group5-copy .group2-copy3 .group10 .group4-copy .group-copy5 .calendar {
+  background: rgba(255, 255, 255, 0);
+  top: 14px;
+  height: 17px;
+  width: 18px;
+  position: absolute;
+  margin: 0;
+  left: 231px;
+}
+.page1
+  .group5-copy
+  .group2-copy3
+  .group10
+  .group4-copy
+  .group-copy5
+  .calendar
+  .shape {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 17px;
+  width: 18px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page1
+  .group5-copy
+  .group2-copy3
+  .group10
+  .group4-copy
+  .group-copy5
+  .calendar
+  .shape1 {
+  background: rgba(255, 255, 255, 0);
+  top: 8px;
+  height: 2px;
+  width: 12px;
+  position: absolute;
+  margin: 0;
+  left: 3px;
+}
+.page1
+  .group5-copy
+  .group2-copy3
+  .group10
+  .group4-copy
+  .group-copy5
+  .calendar
+  .shape2 {
+  background: rgba(255, 255, 255, 0);
+  top: 11px;
+  height: 2px;
+  width: 7px;
+  position: absolute;
+  margin: 0;
+  left: 3px;
+}
+.page1 .group5-copy .group2-copy3 .group10 .group4-copy .group-copy5 .from {
+  background: rgba(255, 255, 255, 0);
+  top: 14px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 19px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page1 .group5-copy .group2-copy3 .group10 .group4-copy .group-copy6 {
+  background: rgba(255, 255, 255, 0);
+  top: 30px;
+  height: 46px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 291px;
+}
+.page1
+  .group5-copy
+  .group2-copy3
+  .group10
+  .group4-copy
+  .group-copy6
+  .rectangle21 {
+  background: rgba(255, 255, 255, 1);
+  top: 0;
+  height: 46px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(206, 206, 206, 1);
+}
+.page1
+  .group5-copy
+  .group2-copy3
+  .group10
+  .group4-copy
+  .group-copy6
+  .calendar1 {
+  background: rgba(255, 255, 255, 0);
+  top: 14px;
+  height: 17px;
+  width: 18px;
+  position: absolute;
+  margin: 0;
+  left: 229px;
+}
+.page1
+  .group5-copy
+  .group2-copy3
+  .group10
+  .group4-copy
+  .group-copy6
+  .calendar1
+  .shape3 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 17px;
+  width: 18px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page1
+  .group5-copy
+  .group2-copy3
+  .group10
+  .group4-copy
+  .group-copy6
+  .calendar1
+  .shape4 {
+  background: rgba(255, 255, 255, 0);
+  top: 8px;
+  height: 2px;
+  width: 12px;
+  position: absolute;
+  margin: 0;
+  left: 3px;
+}
+.page1
+  .group5-copy
+  .group2-copy3
+  .group10
+  .group4-copy
+  .group-copy6
+  .calendar1
+  .shape5 {
+  background: rgba(255, 255, 255, 0);
+  top: 11px;
+  height: 2px;
+  width: 7px;
+  position: absolute;
+  margin: 0;
+  left: 3px;
+}
+.page1 .group5-copy .group2-copy3 .group10 .group4-copy .group-copy6 .to {
+  background: rgba(255, 255, 255, 0);
+  top: 14px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 19px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page1 .group5-copy .group2-copy3 .group10 .group4-copy .group-copy4 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 18px;
+  width: 83px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page1
+  .group5-copy
+  .group2-copy3
+  .group10
+  .group4-copy
+  .group-copy4
+  .event-dates {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page1 .group5-copy .group2-copy3 .group10 .group4-copy .group-copy7 {
+  background: rgba(255, 255, 255, 0);
+  top: 44px;
+  height: 18px;
+  width: 6px;
+  position: absolute;
+  margin: 0;
+  left: 275px;
+}
+.page1 .group5-copy .group2-copy3 .group10 .group4-copy .group-copy7 .label1 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page1 .group5-copy .group2-copy3 .group-copy83 {
+  background: rgba(255, 255, 255, 0);
+  top: 51px;
+  height: 18px;
+  width: 317px;
+  position: absolute;
+  margin: 0;
+  left: 124px;
+}
+.page1 .group5-copy .group2-copy2 {
+  background: rgba(255, 255, 255, 0);
+  top: 116px;
+  height: 18px;
+  width: 129px;
+  position: absolute;
+  margin: 0;
+  left: 459px;
+}
+.page1 .group5-copy .group2-copy2 .group-copy84 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 18px;
+  width: 129px;
+  position: relative;
+  margin: 0;
+  left: 0;
+}
+.page1 .group5-copy .group2-copy2 .group-copy84 .need-extraservices {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page1 .group5-copy .group3 {
+  background: rgba(255, 255, 255, 0);
+  top: 160px;
+  height: 46px;
+  width: 1126px;
+  position: absolute;
+  margin: 0;
+  left: 110px;
+}
+.page1 .group5-copy .group3 .group {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 46px;
+  width: 265px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page1 .group5-copy .group3 .group .rectangle22 {
+  background: rgba(255, 255, 255, 1);
+  top: 0;
+  height: 46px;
+  width: 265px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(206, 206, 206, 1);
+}
+.page1 .group5-copy .group3 .group .city {
+  background: rgba(255, 255, 255, 0);
+  top: 14px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 19px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page1 .group5-copy .group3 .group .image1 {
+  background: rgba(255, 255, 255, 0);
+  top: 19px;
+  height: 11px;
+  width: 6px;
+  position: absolute;
+  margin: 0;
+  left: 239px;
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.page1 .group5-copy .group3 .group-copy2 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 46px;
+  width: 265px;
+  position: absolute;
+  margin: 0;
+  left: 580px;
+}
+.page1 .group5-copy .group3 .group-copy2 .rectangle23 {
+  background: rgba(255, 255, 255, 1);
+  top: 0;
+  height: 46px;
+  width: 265px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(206, 206, 206, 1);
+}
+.page1 .group5-copy .group3 .group-copy2 .event-type {
+  background: rgba(255, 255, 255, 0);
+  top: 14px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 19px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page1 .group5-copy .group3 .group-copy2 .image2 {
+  background: rgba(255, 255, 255, 0);
+  top: 19px;
+  height: 8px;
+  width: 5px;
+  position: absolute;
+  margin: 0;
+  left: 239px;
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.page1 .group5-copy .group3 .group-copy {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 46px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 293px;
+}
+.page1 .group5-copy .group3 .group-copy .rectangle24 {
+  background: rgba(255, 255, 255, 1);
+  top: 0;
+  height: 46px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(206, 206, 206, 1);
+}
+.page1 .group5-copy .group3 .group-copy .guests {
+  background: rgba(255, 255, 255, 0);
+  top: 14px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 19px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page1 .group5-copy .group3 .group4 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 46px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 863px;
+}
+.page1 .group5-copy .group3 .group4 .group-copy51 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 46px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page1 .group5-copy .group3 .group4 .group-copy51 .rectangle25 {
+  background: rgba(255, 255, 255, 1);
+  top: 0;
+  height: 46px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(206, 206, 206, 1);
+}
+.page1 .group5-copy .group3 .group4 .group-copy51 .image3 {
+  background: rgba(255, 255, 255, 0);
+  top: 19px;
+  height: 8px;
+  width: 5px;
+  position: absolute;
+  margin: 0;
+  left: 237px;
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.page1 .group5-copy .group3 .group4 .group-copy41 {
+  background: rgba(255, 255, 255, 0);
+  top: 14px;
+  height: 18px;
+  width: 84px;
+  position: absolute;
+  margin: 0;
+  left: 20px;
+}
+.page1 .group5-copy .group3 .group4 .group-copy41 .your-budget {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(122, 122, 122, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page1 .group5 {
+  background: rgba(255, 255, 255, 0);
+  top: 325px;
+  height: 53px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 68px;
+}
+.page1 .group5 .rectangle4 {
+  background: rgba(253, 94, 81, 1);
+  top: 0;
+  height: 53px;
+  width: 263px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page1 .group5 .search {
+  background: rgba(255, 255, 255, 0);
+  top: 18px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 104px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 18px;
+}
+.page1 .group7 {
+  background: rgba(255, 255, 255, 0);
+  top: -22px;
+  height: 100px;
+  width: 1440px;
+  position: absolute;
+  margin: 0;
+  left: -20px;
+}
+.page1 .group7 .rectangle {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 100px;
+  width: 1440px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page1 .group7 .event-on-fly {
+  background: rgba(255, 255, 255, 0);
+  top: 44px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 80px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 17px;
+  color: rgba(252, 90, 77, 1);
+  text-align: center;
+  line-height: 21px;
+}
+.page1 .group7 .bitmap1 {
+  background: rgba(255, 255, 255, 0);
+  top: 27px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  margin: 0;
+  left: 210px;
+}
+.page1 .group11 {
+  background: rgba(255, 255, 255, 0);
+  top: 490px;
+  height: 591px;
+  width: 1315px;
+  position: absolute;
+  margin: 0;
+  left: 43px;
+}
+.page1 .group11 .group8 {
+  background: rgba(255, 255, 255, 0);
+  top: 72px;
+  height: 519px;
+  width: 1315px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page1 .group11 .group8 .a1 {
+  background: rgba(255, 255, 255, 0);
+  top: 22px;
+  height: 227px;
+  width: 407px;
+  position: absolute;
+  margin: 0;
+  left: 20px;
+}
+.page1 .group11 .group8 .a1 .bitmap-copy1 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 227px;
+  width: 407px;
+  position: relative;
+  margin: 0;
+  left: 0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.page1 .group11 .group8 .bitmap-copy3 {
+  background: rgba(255, 255, 255, 0);
+  top: 252px;
+  height: 267px;
+  width: 447px;
+  position: absolute;
+  margin: 0;
+  left: 433px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.page1 .group11 .group8 .group6 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 267px;
+  width: 447px;
+  position: absolute;
+  margin: 0;
+  left: 868px;
+}
+.page1 .group11 .group8 .bitmap2 {
+  background: rgba(255, 255, 255, 0);
+  top: 252px;
+  height: 267px;
+  width: 447px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.page1 .group11 .group8 .bitmap-copy2 {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 267px;
+  width: 447px;
+  position: absolute;
+  margin: 0;
+  left: 433px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.page1 .group11 .group8 .bitmap-copy4 {
+  background: rgba(255, 255, 255, 0);
+  top: 252px;
+  height: 267px;
+  width: 447px;
+  position: absolute;
+  margin: 0;
+  left: 866px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.page1 .group11 .predefined-packages {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 471px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  line-height: 48px;
+}
+.page1 .pool-party {
+  background: rgba(255, 255, 255, 0);
+  top: 683px;
+  height: auto;
+  width: 311px;
+  position: absolute;
+  margin: 0;
+  left: 108px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 21px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  line-height: 29px;
+}
+.page1 .event-at-arena-lviv {
+  background: rgba(255, 255, 255, 0);
+  top: 924px;
+  height: auto;
+  width: 311px;
+  position: absolute;
+  margin: 0;
+  left: 541px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 21px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  line-height: 29px;
+}
+.page1 .event-in-the-cinema {
+  background: rgba(255, 255, 255, 0);
+  top: 683px;
+  height: auto;
+  width: 262px;
+  position: absolute;
+  margin: 0;
+  left: 1000px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 21px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  line-height: 29px;
+}
+.page1 .event-on-the-factory {
+  background: rgba(255, 255, 255, 0);
+  top: 924px;
+  height: auto;
+  width: 298px;
+  position: absolute;
+  margin: 0;
+  left: 117px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 21px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  line-height: 29px;
+}
+.page1 .event-in-contemporar {
+  background: rgba(255, 255, 255, 0);
+  top: 667px;
+  height: auto;
+  width: 311px;
+  position: absolute;
+  margin: 0;
+  left: 538px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 21px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  line-height: 29px;
+}
+.page1 .red-carpet-event {
+  background: rgba(255, 255, 255, 0);
+  top: 924px;
+  height: auto;
+  width: 311px;
+  position: absolute;
+  margin: 0;
+  left: 971px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 21px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  line-height: 29px;
+}
+.page1 .bitmap3 {
+  background: rgba(255, 255, 255, 0);
+  top: 100px;
+  height: 24px;
+  width: 25px;
+  position: absolute;
+  margin: 0;
+  left: 65px;
+}
+.page1 .bitmap4 {
+  background: rgba(255, 255, 255, 0);
+  top: 100px;
+  height: 24px;
+  width: 25px;
+  position: absolute;
+  margin: 0;
+  left: 213px;
+}
+.page1 .bitmap-copy5 {
+  background: rgba(255, 255, 255, 0);
+  top: 100px;
+  height: 24px;
+  width: 25px;
+  position: absolute;
+  margin: 0;
+  left: 378px;
+}
+.page1 .bitmap5 {
+  background: rgba(255, 255, 255, 0);
+  top: 224px;
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  margin: 0;
+  left: 166px;
+}
+.page1 .bitmap-copy21 {
+  background: rgba(255, 255, 255, 0);
+  top: 224px;
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  margin: 0;
+  left: 298px;
+}
+.page1 .bitmap-copy51 {
+  background: rgba(255, 255, 255, 0);
+  top: 224px;
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  margin: 0;
+  left: 424px;
+}
+.page1 .group12 {
+  background: rgba(255, 255, 255, 0);
+  top: 18px;
+  height: 23px;
+  width: 488px;
+  position: absolute;
+  margin: 0;
+  left: 866px;
+}
+.page1 .group12 .rectangle7 {
+  background: rgba(86, 92, 96, 1);
+  top: 9px;
+  height: 2px;
+  width: 15px;
+  position: absolute;
+  margin: 0;
+  left: 473px;
+}
+.page1 .group12 .rectangle7-copy {
+  background: rgba(86, 92, 96, 1);
+  top: 13px;
+  height: 2px;
+  width: 15px;
+  position: absolute;
+  margin: 0;
+  left: 473px;
+}
+.page1 .group12 .rectangle7-copy2 {
+  background: rgba(86, 92, 96, 1);
+  top: 17px;
+  height: 2px;
+  width: 15px;
+  position: absolute;
+  margin: 0;
+  left: 473px;
+}
+.page1 .group12 .screen-shot20180317-at095946-copy {
+  background: rgba(255, 255, 255, 0);
+  top: 0;
+  height: 23px;
+  width: 29px;
+  position: absolute;
+  margin: 0;
+  left: 0;
+}
+.page1 .group12 .english-united-stat {
+  background: rgba(255, 255, 255, 0);
+  top: 3px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 37px;
+  font-family: "Lato", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 17px;
+}
+.anima-animate-appear {
+  opacity: 0;
+  display: block;
+  -webkit-animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation: anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity: 1;
+  display: block;
+  -webkit-animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation: anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay: 0;
+  animation-delay: 0;
+}
+@-webkit-keyframes anima-reveal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes anima-reveal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes anima-reveal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes anima-reveal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
