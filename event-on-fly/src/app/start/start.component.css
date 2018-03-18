@@ -1,0 +1,6 @@
+.spinner {
+    position: fixed;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: 150px;
+}

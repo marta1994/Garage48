@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { SearchServiceService } from '../search-service.service';
+import { LoadingService } from '../loading.service';
 
 @Component({
   selector: 'app-start',
@@ -8,7 +9,7 @@ import { SearchServiceService } from '../search-service.service';
 })
 export class StartComponent implements OnInit {
 
-  constructor(public searchService: SearchServiceService) { }
+  constructor(public loadingService: LoadingService, public searchService: SearchServiceService) { }
 
   ngOnInit() {
   }

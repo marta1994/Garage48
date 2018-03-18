@@ -1,6 +1,11 @@
-<app-top-bar></app-top-bar>
-<div class="start-filter">
-    <app-basic-filter [basicFilter]="searchService.searchRequest.simpleFilter" 
-    [additionalServices]="searchService.searchRequest.additionalServices"
-        [showSearch]="true"></app-basic-filter>
+<div *ngIf="loadingService.isLoading" class="spinner">
+  <mat-spinner></mat-spinner>
+</div>
+<div *ngIf="!loadingService.isLoading">
+  <app-top-bar></app-top-bar>
+  <div class="start-filter">
+    <app-basic-filter [basicFilter]="searchService.searchRequest.simpleFilter"
+     [additionalServices]="searchService.searchRequest.additionalServices"
+      [showSearch]="true"></app-basic-filter>
+  </div>
 </div>

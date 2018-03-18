@@ -40,6 +40,7 @@ import { BookedDialogComponent } from "./booked-dialog/booked-dialog.component";
 import { ViewDetailsComponent } from "./view-details/view-details.component";
 import { MainComponent } from "./main/main.component";
 import { StartComponent } from './start/start.component';
+import { PreviewComponent } from './preview/preview.component';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyDFey1JYAWe874FyVKIZ5b-IzqZjm9zBSU",
@@ -52,8 +53,12 @@ const appRoutes: Routes = [
   { path: "view-details", component: ViewDetailsComponent },
   { path: "search", component: MainComponent },
   {
+    path: "start",
+    component: StartComponent
+  },
+  {
     path: "",
-    component: StartComponent,
+    component: PreviewComponent,
     pathMatch: "full"
   }
 ];
@@ -70,7 +75,8 @@ const appRoutes: Routes = [
     BookedDialogComponent,
     ViewDetailsComponent,
     MainComponent,
-    StartComponent
+    StartComponent,
+    PreviewComponent
   ],
   imports: [
     BrowserModule,
