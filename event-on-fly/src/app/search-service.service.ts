@@ -62,7 +62,7 @@ export class SearchServiceService {
     bundle.venue = matchedVenue[index];
 
     var prices = [];
-    prices.push(bundle.venue.price);
+    prices.push(bundle.venue.price.amount);
     prices.push(bundle.catering.price);
     bundle.price = new PriceResult(prices).Calculate();
 
@@ -80,18 +80,35 @@ export class SearchServiceService {
 
   private filterByPrice(filteredData) {
     var reqVenue = <VenueFilter>(this.requestedVenue.service);
-    var priceFrom = reqVenue.priceFrom;
-    var priceTo = reqVenue.priceTo;
+
+    var priceFrom = 0;
+    var priceTo = 1000000;
+
+    if(reqVenue.priceFrom){
+      priceFrom = reqVenue.priceFrom;
+    }
+
+    if(reqVenue.priceTo){
+      priceTo = reqVenue.priceTo;
+    }
 
     return filteredData.filter(venue => venue.price.amount < priceTo && venue.price.amount > priceFrom);
   }
 
   private filterBySquareSize(filteredData) {
     var reqVenue = <VenueFilter>(this.requestedVenue.service);
-    var squareFrom = reqVenue.squareFrom;
-    var squareTo = reqVenue.squareTo;
+    var squareFrom = 0; 
+    var squareTo = 10000000;
 
-    return filteredData.filter(venue => venue.square < squareFrom && venue.square > squareTo);
+    if(reqVenue.squareFrom){
+      squareFrom = reqVenue.squareFrom;
+    }
+    
+    if(reqVenue.squareTo){
+      squareTo = reqVenue.squareTo;
+    }
+
+    return filteredData.filter(venue => venue.square < squareTo && venue.square > squareFrom);
   }
 
   //#endregion
@@ -106,8 +123,8 @@ export class SearchServiceService {
     var filteredData = this.venues.filter(venue => venue.peopleNumber >= requestedNumber);
 
     if ((<VenueFilter>(this.requestedVenue.service)).squareFrom) {
-      this.filterBySquareSize(filteredData);
-      this.filterByPrice(filteredData);
+      filteredData = this.filterBySquareSize(filteredData);
+      filteredData = this.filterByPrice(filteredData);
     }
 
     return filteredData;

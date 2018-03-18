@@ -86,8 +86,8 @@ export class VenueFilter implements IService {
     cityCenter: Boolean;
     offerCatering: Boolean;
     allowThirdPartyCatering: Boolean;
-    priceFrom: Number;
-    priceTo: Number;
+    priceFrom: number;
+    priceTo: number;
 }
 
 export enum DateRangeType {
