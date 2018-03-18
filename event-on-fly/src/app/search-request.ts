@@ -60,9 +60,9 @@ export class SimpleFilter {
     dateRange: DateRange;
     needCatering: Boolean;
     needVenue: Boolean;
-    needExtraService: Boolean; 
-    priceFrom: Number;
-    priceTo: Number;   
+    needExtraService: boolean; 
+    priceFrom: number;
+    priceTo: number;   
 }
 
 export class DateRange {
@@ -75,17 +75,17 @@ export class DateRange {
 export class VenueFilter implements IService {
     squareFrom: number = 300;
     squareTo: number;
-    providedWifi: Boolean = true;
-    wardrobe: Boolean;
-    parking: Boolean = true;
-    securityGuard: Boolean;
-    cleaningServiceIncluded: Boolean = true;
+    providedWifi: boolean = true;
+    wardrobe: boolean;
+    parking: boolean = true;
+    securityGuard: boolean;
+    cleaningServiceIncluded: boolean = true;
     floors: number;
     peopleNumber: number;
     toiletsAmount: number;
-    cityCenter: Boolean;
-    offerCatering: Boolean;
-    allowThirdPartyCatering: Boolean;
+    cityCenter: boolean;
+    offerCatering: boolean;
+    allowThirdPartyCatering: boolean;
     priceFrom: number;
     priceTo: number;
 }
