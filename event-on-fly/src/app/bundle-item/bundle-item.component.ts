@@ -26,7 +26,7 @@ export class BundleItemComponent implements OnInit {
 
   public openBookDialog() {
     let dialogRef = this.dialog.open(BookedDialogComponent, {
-      width: "250px"
+      width: "530px"
     });
   }
 
